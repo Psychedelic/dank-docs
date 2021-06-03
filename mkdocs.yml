@@ -1,0 +1,61 @@
+site_name: "Documentation | Dank"
+site_author: dank.ooo
+site_description: Dank is an Open Internet Service on DFINITY's Internet Computer that provides cycle and ICP based financial services to developers & users.
+site_url: https://docs.dank.ooo/
+copyright: '© 2021 Built by Dank'
+repo_name: fleekhq/dank-docs
+repo_url: https://github.com/fleekhq/dank-docs
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: './imgs/fav-dank.ico'
+  logo: './imgs/dank-w.png'
+  font:
+    text: 'Open Sans'
+extra_css:
+  - 'stylesheets/extra.css'
+markdown_extensions:
+  - codehilite
+  - admonition
+  - attr_list
+  - meta
+  - toc:
+      permalink: true
+nav:
+  - Welcome to Dank : index.md
+  - Protocol Overview :
+    - How Dank Works: protocol-overview/how-dank-works.md
+    - Participant Use Cases: protocol-overview/dank-use-cases.md
+    - Common Terms : protocol-overview/common-terms.md       
+  - Basic Concepts:
+    - Dank Accounts: basic-concepts/dank-accounts.md
+    - Cycle & ICP Finances: basic-concepts/cycle-icp-finances.md
+    - IC App Authentication: basic-concepts/dank-authentication.md 
+    - Charging Stations: basic-concepts/charging-stations.md 
+    - Canister Manager: basic-concepts/canister-manager.md
+  - Main Dank API:
+      - General Overview: main-dank-api/overview.md
+  - Cycles Ledger API:
+      - General Overview: cycles-ledgers-api/overview.md
+  - ICP Ledger API:
+      - General Overview: icp-ledgers-api/overview.md
+  - Charging Station API:
+    - General Overview: charging-station-api/overview.md
+  - Canister Manager (Proxy):
+    - Overview: canister-manager-proxy/overview.md
+  - Resources:
+    - Resource Library: resources/library.md
+    - Our App Ecosystem: resources/apps-with-dank.md
+    - Dank's Blog: "https://medium.com/dank-ois"
+    - Terms / Disclaimer: resources/disclaimer
+    - Privacy Policy: resources/privacy
+    - Trademark: resources/trademark
+ 
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/FleekHQ/dank/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/dank_ois
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/yVEcEzmrgm
