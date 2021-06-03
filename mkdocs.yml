@@ -4,7 +4,7 @@ site_description: Dank is an Open Internet Service on DFINITY's Internet Compute
 site_url: https://docs.dank.ooo/
 copyright: '© 2021 Built by Dank'
 repo_name: fleekhq/dank-docs
-repo_url: https://github.com/fleekhq/dank-docs
+repo_url: https://github.com/psychedelichq/dank-docs
 theme:
   name: material
   custom_dir: overrides
