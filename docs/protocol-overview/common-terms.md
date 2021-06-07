@@ -37,7 +37,7 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 ### Principal ID (Public Key)
 - A user's main identifier on the Internet Computer.
 - Your  **wallet address**, used to surface balances and authenticate.
-- It's an **address** you can send cycles, ICP, or other assets to.
+- It's an **address** you can send cycles or other assets to.
 - It's an **identifier** you can use to sign into Internet Computer apps.
 - They can hold any ledger-based, or NNS compatible token.
 - Also could be mentioned as **public key** or **address**.
@@ -66,13 +66,12 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - The main utility and governance token of the Internet Computer
 - Can be locked in the Network Nervous System (NNS) to create "Neurons" (another IC token) to vote on NNS governance.
 - **Can be swapped for Cycles** (another IC token), currently the only way to create them.
-- Dank Users can receive ICP deposit from external exchange platforms.
 - Read [this post](https://medium.com/dfinity/the-internet-computers-token-economics-an-overview-29e238bd1d83#:~:text=ICP%20tokens%20allow%20users%20to,proposals%20and%20earn%20voting%20rewards.) to learn more about them.
 
 ### Cycles
 - Cycles are another Internet Computer token that represents computational power.
 - You burn it to use that computational power and memory to power canisters and the software in them.
-- They can only be created from **ICP**, Dank Users can make the swap using a built-in call.
+- They can only be created from **ICP**.
 - You can send cycles to other Dank Users, or to any canisters.
 - You can deposit cycles from external sources to your Dank Account.
 

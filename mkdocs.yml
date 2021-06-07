@@ -1,6 +1,6 @@
 site_name: "Documentation | Dank"
 site_author: dank.ooo
-site_description: Dank is an Open Internet Service on DFINITY's Internet Computer that provides cycle and ICP based financial services to developers & users.
+site_description: Dank is an Open Internet Service on DFINITY's Internet Computer that provides cycle-based financial services to developers & users.
 site_url: https://docs.dank.ooo/
 copyright: '© 2021 Built by Dank'
 repo_name: psychedelichq/dank-docs
@@ -29,7 +29,7 @@ nav:
     - Common Terms : protocol-overview/common-terms.md       
   - Basic Concepts:
     - Dank Accounts: basic-concepts/dank-accounts.md
-    - Cycle & ICP Finances: basic-concepts/cycle-icp-finances.md
+    - Cycle Finances: basic-concepts/cycle-icp-finances.md
     - IC App Authentication: basic-concepts/dank-authentication.md 
     - Charging Stations: basic-concepts/charging-stations.md 
     - Canister Manager: basic-concepts/canister-manager.md
@@ -37,8 +37,6 @@ nav:
       - General Overview: main-dank-api/overview.md
   - Cycles Ledger API:
       - General Overview: cycles-ledgers-api/overview.md
-  - ICP Ledger API:
-      - General Overview: icp-ledgers-api/overview.md
   - Charging Station API:
     - General Overview: charging-station-api/overview.md
   - Canister Manager (Proxy):

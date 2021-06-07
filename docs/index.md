@@ -4,7 +4,7 @@ date: "1"
 
 # Welcome to Dank
 
-Dank is an Open Internet Service on the Internet Computer, that provides cycle and ICP based financial services to users and developers! Here you'll find all developer documentation you will need to get started using Dank, and interacting with the interfaces and features it provides. Dank is built by [Psychedelic](https://psychedelic.ooo), a collective of developers and entrepreneurs creating Internet Computer Open Internet Services from and for the community.
+Dank is an Open Internet Service on the Internet Computer, that provides cycle-based financial services to users and developers! Here you'll find all developer documentation you will need to get started using Dank, and interacting with the interfaces and features it provides. Dank is built by [Psychedelic](https://psychedelic.ooo), a collective of developers and entrepreneurs creating Internet Computer Open Internet Services from and for the community.
 
 **Important:** Dank is currently in the last stages of development and will be released soon to the Internet Computer. You can join our community to follow -and aid!- it's development.
 
@@ -15,7 +15,7 @@ Learn the basics, and get to know the purpose and perks behind Dank!
 
 - [How Dank Works](https://docs.dank.ooo/protocol-overview/how-dank-works/)
 - [Dank Users / Accounts](https://docs.dank.ooo/basic-concepts/dank-accounts/)
-- [Cycles & ICP Finances](https://docs.dank.ooo/basic-concepts/cycle-icp-finances/)
+- [Cycles Finances](https://docs.dank.ooo/basic-concepts/cycle-icp-finances/)
 - [IC App Authentication](https://docs.dank.ooo/basic-concepts/dank-authentication/)
 - [Charging Station Framework](https://docs.dank.ooo/basic-concepts/charging-stations/)
 - [Canister Manager](https://docs.dank.ooo/basic-concepts/canister-manager/)
@@ -27,9 +27,8 @@ Coming soon, guides for interacting with Dank's main API, and the sub-interfaces
 
 <a href="./main-dank-api/overview/"><img src=imgs/main-api.png></a>
 <a href="./cycles-ledgers-api/overview/"><img src=imgs/cyc.png></a>
-<a href="./icp-ledgers-api/overview/"><img src=imgs/icp.png></a>
 <a href="./charging-station-api/overview/"><img src=imgs/charging-api.png></a>
-<a href="./canister-manager-proxy/overview/"><img src=imgs/canister-man.png></a> <a href="./resources/library/"><img src=imgs/library.png></a> 
+<a href="./canister-manager-proxy/overview/"><img src=imgs/canister-man.png></a>
 
 
 ## Dank's repositories

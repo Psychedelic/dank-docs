@@ -5,16 +5,16 @@ date: "1"
 
 ![](imgs/seamless-auth.svg)
 
-Dank can be used to improve the onboarding and authentication experience on Internet Computer applications greatly, and plug IC applications into a wide ecosystem of Cycle or ICP Finances, canister, charging station, and asset management features instantly.
+Dank can be used to improve the onboarding and authentication experience on Internet Computer applications greatly, and plug IC applications into a wide ecosystem of Cycle-based Finances, canister, charging station, and asset management features instantly.
 
-**Dank isn't an authentication provider per-se**, but by eliminating the need of a separate Cycles Wallet (for Cycles) and Account IDs (for ICP and other tokens), it can enable any app that integrates it to authenticate users with just a Principal ID (just like they would normally), and provide them access to their Cycles in-app via Dank's API. Reducing the amount of steps in auth to one.
+**Dank isn't an authentication provider per-se**, but by eliminating the need of a separate Cycles Wallet, it can enable any app that integrates it to authenticate users with just a Principal ID (just like they would normally), and provide them access to their Cycles in-app via Dank's API. Reducing the amount of steps in auth to one.
 
 **Reference Implementation**
-[Plugwallet.ooo](https://plugwallet.ooo/) is a browser wallet / identity / authentication provider built on Dank that any platform will be able to integrate to enable a seamless one-step authentication flow in IC browser experiences. By integrating Plug, you can easily surface Dank's cycle and ICP related actions for users and trigger transactions they can accept from their wallet, without having to design that flow yourself.
+[Plugwallet.ooo](https://plugwallet.ooo/) is a browser wallet / identity / authentication provider built on Dank that any platform will be able to integrate to enable a seamless one-step authentication flow in IC browser experiences. By integrating Plug, you can easily surface Dank's cycle-related actions for users and trigger transactions they can accept from their wallet, without having to design that flow yourself.
 
 ## What are the main benefits of authenticating Dank users?
 
-The key perk of authenticating Dank users, or using a Dank Authentication provider [such as the Plug browser Wallet](https://plugwallet.ooo), is that **it enables a one-step seamless onboarding experience for users**, because **Dank users can hold cycles or ICP** with just a Principal ID. 
+The key perk of authenticating Dank users, or using a Dank Authentication provider [such as the Plug browser Wallet](https://plugwallet.ooo), is that **it enables a one-step seamless onboarding experience for users**, because **Dank users can hold cycles** with just a Principal ID. 
 
 Meaning, that they can authenticate into an IC app using their Principal ID, and have access to their Cycles balance in-app **without having to specify and authorize a separate Wallet ID every time.** What's more, those users can then **send cycles to each others with just their account's Principal ID and no need to know a separate Wallet ID!**.
 
