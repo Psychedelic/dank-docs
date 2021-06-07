@@ -13,12 +13,6 @@ Dank's main resources, useful reads, and tools for working and developing with D
 - [Dank's Twitter](https://twitter.com/dank_ois) 
 - [Dank's Discord](https://discord.gg/yVEcEzmrgm)
 - [Dank's Blog](https://medium.com/dank-ois)
-- [Dank's Explorer Interface](https://info.dank.ooo/)
-
-### Dank Repositories:
-- [Main Dank Canister](https://github.com/psychedelichq) 
-- [Charging Station Interface](https://github.com/psychedelichq)
-- [Dank Explorer Interface](https://github.com/psychedelichq)
 
 ### Relevant Articles:
 - [Dank's Introduction Article](https://medium.com/@dank_ois/e7dd8e4c3d25?source=friends_link&sk=91bd9be1283ccf00d115b40ed539c4e1)
