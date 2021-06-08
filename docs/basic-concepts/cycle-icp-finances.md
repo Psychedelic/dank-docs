@@ -35,7 +35,7 @@ The Main Dank Canister **also acts as a universal Canister ID** for all users. W
 
 For example, when deploying a canister using the Canister SDK, you must set a default wallet from where the cycles to be consumed will be spent.
 
-In the case of Dank Accounts, that Canister ID is **universal**, since Dank is the 'Cycles Wallet' of all Dank accounts (like a decentralized bank!).
+In the case of Dank, that Canister ID is **universal**, since Dank is the 'Cycles Wallet' for all Dank users (like a decentralized bank!).
 
 This is the **main objective of the Cycles ledger**. Without the Cycles Ledger, a user's Cycles Wallet ID and Principal ID are separate addresses. Meaning their Cycles are not only separate from their main identity, but from their other assets (ICP, Neurons, etc.).
 

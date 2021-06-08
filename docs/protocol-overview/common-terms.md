@@ -15,7 +15,7 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - An account in the Internet Computer is comprised by a `Principal ID (public)`, and a `Seed Phrase or Private Key`.
 - Your account is both your wallet, and your identity for IC applications.
 - It holds token balances, referenced from their respective ledgers.
-- When added to Dank, it is considered a Dank User or Dank Account.
+- When added to Dank, it is considered a Dank User.
 
 
 ### Dank User / Account
@@ -73,7 +73,7 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - You burn it to use that computational power and memory to power canisters and the software in them.
 - They can only be created from **ICP**.
 - You can send cycles to other Dank Users, or to any canisters.
-- You can deposit cycles from external sources to your Dank Account.
+- You can deposit cycles from external sources to your balance in Dank.
 
 ### Neurons
 - NNS token held by users to vote on the Network Nervous System governance.
@@ -96,7 +96,7 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - Their purpose is to **refill canisters with cycles** to fund their functioning.
 - They can be configured to do so in a **smart and programmatic way**.
 - Dank Users can deploy them pre-built ones with Dank's built-in API calls.
-- Charging Stations are refilled with cycles from your Dank Account.
+- Charging Stations are refilled with cycles from your balance in Dank.
 
 ### Cycles Distribution
 - A feature of the Dank Protocol for charging stations.

@@ -28,7 +28,7 @@ nav:
     - Participant Use Cases: protocol-overview/dank-use-cases.md
     - Common Terms : protocol-overview/common-terms.md       
   - Basic Concepts:
-    - Dank Accounts: basic-concepts/dank-accounts.md
+    - Dank Users: basic-concepts/dank-users.md
     - Cycle-based Finances: basic-concepts/cycle-icp-finances.md
     - IC App Authentication: basic-concepts/dank-authentication.md 
     - Charging Stations: basic-concepts/charging-stations.md 

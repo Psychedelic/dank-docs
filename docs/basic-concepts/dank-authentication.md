@@ -20,7 +20,7 @@ Meaning, that they can authenticate into an IC app using their Principal ID, and
 
 Instead, applications will authorize **Dank's Universal Canister ID**, which they know beforehand, for each user's Principal ID, eliminating that step for the user and providing a seamless onboarding where Identity & Cycles Wallet are a single address.
 
-Other than access to cycles, using Dank Accounts has other benefits, like:
+Other than access to cycles, using Dank has other benefits, like:
 
 - Combined with a wallet provider ([like Plug](https://plugwallet.ooo)) that integrates Dank, users can maintain a central account from which they can permission and control applications, similar to the Dapp experience we see today on Ethereum.
 - Dank keep a registry of the canisters an account owns/controls, and can be surfaced into any app to interact with them easily.

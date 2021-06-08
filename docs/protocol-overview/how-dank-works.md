@@ -40,7 +40,7 @@ This is achieved by having the Main Dank Canister orchestrate different services
 
 ## Dank Users, the Core of Dank
 
-As mentioned above, `Principal IDs` using Dank are called `Dank Users or Accounts`, and are assigned a balance tied to that ID in Dank's Ledgers, tracked by the protocol using an implementation of `big-map`.
+As mentioned above, `Principal IDs` using Dank can be called `Dank Users`, and are assigned a balance tied to that ID in Dank's Ledgers, tracked by the protocol using an implementation of `big-map`.
 
 All Dank Users can hold a Cycles balance in the ledger, and interact with the built-in suite of cycle actions and canister developer tools provided either by the Dank API, or surfaced by an integrated interface (as is Fleek.ooo for canister development).
 

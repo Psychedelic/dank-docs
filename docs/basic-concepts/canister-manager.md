@@ -14,14 +14,14 @@ With the Cycles Ledger, Dank creates a seamless ecosystem that simplifies all cy
 
 ## An Abstraction & Unification Layer
 
-Through Dank, any Dank Account can use Main Dank's API to build, deploy, or manage their canisters easily, and have them interact with their Cycles balances in the Dank Cycles Ledger to power their functioning.
+Through Dank, any user can use Main Dank's API to build, deploy, or manage their canisters easily, and have them interact with their Cycles balances in the Dank Cycles Ledger to power their functioning.
 
 In this case, Dank acts like an orchestrator and abstraction layer. Through simple API calls, anyone can deploy/manage a canister, while Dank handles proxying the calls to the Internet Computer network.
 
 From a end-user perspective, it makes canister development as easy as it gets, because you have a direct line of communication with your cycles, and you can use simple commands and let Dank do the heavy lifting; from a developer perspective, it gives any Internet Computer app plug-in canister management features they can surface in their UI to all their users, by interacting with Dank's API.
 
-### The Dank Account Canister Registry
+### The Dank Canister Registry
 
-**Dank users also keep a registry of their owned canisters**, which gives users and their Principal IDs more visibility and control over their canisters, which they can now carry across interfaces.
+**Dank also keep a registry of each users' owned canisters**, which gives users and their Principal IDs more visibility and control over their canisters, which they can now carry across interfaces.
 
-If you were to deploy and manage a canister through your Dank Account, and then log into a different Dank-integrated IC app for canister management (like Fleek.ooo!), the app could surface your Dank Account's canister records automatically, and allow you to view and manage your canisters there without any migrations or manual work. With Dank, canisters can become an **interface agnostic asset** that you can resurface and manage from any interface or app.
+If you were to deploy and manage a canister through Dank, and then log into a different Dank-integrated IC app for canister management (like Fleek.ooo!), the app could surface your Dank-deployed canister records automatically, and allow you to view and manage your canisters there without any migrations or manual work. With Dank, canisters can become an **interface agnostic asset** that you can resurface and manage from any interface or app.
