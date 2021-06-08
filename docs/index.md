@@ -14,7 +14,7 @@ Dank is an Open Internet Service on the Internet Computer, that provides cycle-b
 Learn the basics, and get to know the purpose and perks behind Dank!
 
 - [How Dank Works](https://docs.dank.ooo/protocol-overview/how-dank-works/)
-- [Dank Users / Accounts](https://docs.dank.ooo/basic-concepts/dank-accounts/)
+- [Dank Users](https://docs.dank.ooo/basic-concepts/dank-users/)
 - [Cycles Finances](https://docs.dank.ooo/basic-concepts/cycle-icp-finances/)
 - [IC App Authentication](https://docs.dank.ooo/basic-concepts/dank-authentication/)
 - [Charging Station Framework](https://docs.dank.ooo/basic-concepts/charging-stations/)
