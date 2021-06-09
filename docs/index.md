@@ -4,7 +4,7 @@ date: "1"
 
 # Welcome to Dank
 
-Dank is an Open Internet Service on the Internet Computer, that provides cycle-based financial services to users and developers! Here you'll find all developer documentation you will need to get started using Dank, and interacting with the interfaces and features it provides.
+Dank is an infrastructure layer Open Internet Service on the Internet Computer, that provides cycle-based financial services to users and developers! Here you'll find all developer documentation you will need to get started using Dank, and interacting with the interfaces and features it provides.
 
 **Important:** Dank is currently in the last stages of development and is in Alpha state on the Internet Computer. We will soon release all technical details and interfaces. You can join our community to follow -and aid!- it's development.
 
