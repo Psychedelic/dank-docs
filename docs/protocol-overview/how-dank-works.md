@@ -5,7 +5,7 @@ date: "1"
 
 ![](imgs/architecture.svg)
 
-Dank is an Open Internet Service and protocol for `cycle-based finances and development` on the Internet Computer. It lives in a tamperproof multi-canister architecture, composed by a main canister, and a sub-set of canisters storing metadata, and transactions records.
+Dank is an Open Internet Service and protocol for `cycle-based finances and development` on the Internet Computer. It lives in a tamperproof multi-canister architecture, composed by a main canister, and a sub-set of canisters storing metadata, transactions records, and cycles.
 
 In total, the Dank Open Internet Service is composed by these services:
 
