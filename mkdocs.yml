@@ -3,8 +3,8 @@ site_author: dank.ooo
 site_description: Dank is an Open Internet Service on DFINITY's Internet Computer that provides cycle-based financial services to developers & users.
 site_url: https://docs.dank.ooo/
 copyright: '© 2021 Built by Dank'
-repo_name: fleekhq/dank-docs
-repo_url: https://github.com/fleekhq/dank-docs
+repo_name: psychedelic/dank-docs
+repo_url: https://github.com/psychedelic/dank-docs
 theme:
   name: material
   custom_dir: overrides
