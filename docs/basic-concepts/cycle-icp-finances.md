@@ -27,7 +27,7 @@ The ledgers are composed by two main pieces.
 
 Firstly, the **main Dank Canister**. This piece is in charge of storing large amounts of cycles for all registered users, keeping track of each individual balance by registering their Principal IDs, and using big-map to keep track of the amount that corresponds to each ID. It's the main interface/API from where users can interact and perform cycle-related actions with their balances.
 
-Secondly, **multi-canister infrastructure**, a sub-set of canisters inside the ledger keeps track of transactions.
+Secondly, **multi-canister infrastructure**, a sub-set of canisters inside the ledger keeps track of transactions; together with another scalable architecture of 'vault' canisters that grow as necessary to store more cycles in case the main canister reaches the capped cycles limit a canister can hold.
 
 ## Dank's Universal Canister ID
 
