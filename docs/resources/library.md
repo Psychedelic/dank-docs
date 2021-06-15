@@ -25,6 +25,6 @@ Dank's main resources, useful reads, and tools for working and developing with D
 - [DFINITY's Canister SDK](https://sdk.dfinity.org/docs/index.html)
 - [DFINITY's DFX CLI](https://sdk.dfinity.org/docs/developers-guide/cli-reference.html)
 
-### Langues of the IC:
+### Languages of the IC:
 - [Motoko, Rust, Candid Guides](https://sdk.dfinity.org/docs/languages/languages-overview.html)
 - [Web Assembly](https://webassembly.org/)
