@@ -5,7 +5,7 @@ date: "1"
 
 ![](imgs/architecture.svg)
 
-Dank Users are Principal IDs that access to Dank's Open Internet Service. A user can ask Dank for a new Principal ID, or add their own.
+Dank Users are Principal IDs that access to Dank's Open Internet Service.
 
 Dank gives Principal IDs the capability of becoming a versatile and powerful 'main account' for users on the Internet Computer. How? By having Dank combine the features in finances, development, and identity into one seamless, abstracted environment.
 
