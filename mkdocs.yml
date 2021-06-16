@@ -22,26 +22,24 @@ markdown_extensions:
   - toc:
       permalink: true
 nav:
-  - Welcome to Dank : index.md
-  - Protocol Overview :
+  - Welcome to Dank 👋: index.md
+  - Protocol Overview 🗺️:
     - How Dank Works: protocol-overview/how-dank-works.md
     - Participant Use Cases: protocol-overview/dank-use-cases.md
     - Common Terms : protocol-overview/common-terms.md       
-  - Basic Concepts:
-    - Dank Users: basic-concepts/dank-users.md
-    - Cycle-based Finances: basic-concepts/cycle-icp-finances.md
-    - IC App Authentication: basic-concepts/dank-authentication.md 
-    - Charging Stations: basic-concepts/charging-stations.md 
-    - Canister Manager: basic-concepts/canister-manager.md
-  - Main Dank API:
-      - General Overview: main-dank-api/overview.md
-  - Cycles Ledger API:
-      - General Overview: cycles-ledgers-api/overview.md
-  - Charging Station API:
-    - General Overview: charging-station-api/overview.md
-  - Canister Manager (Proxy):
-    - Overview: canister-manager-proxy/overview.md
-  - Resources:
+  - Getting Started 🏁:
+      - Main Interface Overview: getting-started/overview.md
+      - Setting Up Environment: getting-started/overview.md
+      - Create/Interact with Accounts: getting-started/overview.md      
+      - Send, deposit, operate with cycles: getting-started/overview.md
+      - Create, refill, manage canisters: getting-started/overview.md  
+      - Authenticate users in IC Apps: getting-started/overview.md
+      - Querying Data and Transactions: getting-started/overview.md            
+  - Interfaces 🧰:
+    - Main Dank Interface: canister-manager-proxy/overview.md
+    - History Archive: canister-manager-proxy/overview.md
+    - Ledger Node: canister-manager-proxy/overview.md    
+  - Resources 💡:
     - Resource Library: resources/library.md
     - Our App Ecosystem: resources/apps-with-dank.md
     - Dank's Blog: "https://medium.com/dank-ois"
@@ -52,7 +50,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/FleekHQ/
+      link: https://github.com/psychedelic/dank-canister
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/dank_ois
     - icon: fontawesome/brands/discord
