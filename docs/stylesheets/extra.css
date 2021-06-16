@@ -98,6 +98,10 @@
   fill: white;
 }
 
+.md-header-nav__button.md-icon svg {
+  fill: white;
+}
+
 .md-typeset {
   color: black;
   font-size: 16px;

@@ -31,10 +31,10 @@ nav:
       - Main Interface Overview: getting-started/overview.md
       - Setting Up Environment: getting-started/overview.md
       - Create/Interact with Accounts: getting-started/overview.md      
-      - Send, deposit, operate with cycles: getting-started/overview.md
-      - Create, refill, manage canisters: getting-started/overview.md  
-      - Authenticate users in IC Apps: getting-started/overview.md
-      - Querying Data and Transactions: getting-started/overview.md            
+      - Send & operate with cycles: getting-started/overview.md
+      - Create & manage canisters: getting-started/overview.md  
+      - Authenticate users to IC Apps: getting-started/overview.md
+      - Query data from Dank: getting-started/overview.md            
   - Interfaces 🧰:
     - Main Dank Interface: canister-manager-proxy/overview.md
     - History Archive: canister-manager-proxy/overview.md
