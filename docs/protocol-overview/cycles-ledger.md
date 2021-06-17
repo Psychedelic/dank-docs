@@ -9,17 +9,15 @@ The core functioning of Dank is acting as a decentralized bank for the Internet 
 
 In a nutshell, with Dank we created a Cycles Ledger so that a user can hold them and interact with them using nothing but a Principal ID. Dank’s Cycles Ledger holds cycles in an auto-scalable, autonomous, multi-canister infrastructure, and maps the balances to each user’s Principal ID, using big-map to track each associated balance. This way, we abstract the need of using a Cycles Wallet (canister that holds cycles for users), and managing a separate ID to hold cycles.
 
-Cycles are just the beginning. We are looking forward to creating a solution for ICP to also allow users to hold ICP with just a Principal ID. We have already **worked with the community on a new standard, using Principal IDs as unique identifiers on the network**, that would also enable anyone in the future to use a universal token interface to create tokens and token ledgers that any user can hold/own with just a Principal ID. Because, as of today, custom tokens or ICP can't be held by Principal IDs, and require users to manage a separate unique identifier called "Account ID" that are token specific.
+Cycles are just the beginning. We are looking forward to creating a solution for ICP to also allow users to hold ICP with just a Principal ID. We have already **worked with the community on a new standard, using Principal IDs as unique identifiers on the network**, that would also enable anyone in the future to use a universal token interface to create tokens and token ledgers that any user can hold/own with just a Principal ID. 
 
 Dank's Ledger and new Principal-ID centric standard enables an ecosystem in which Dank can provide users with streamlined cycles operations. Through Dank, any user can:
 
 - Send or receive cycles across Principal IDs (Dank users).
-- Send or receive cycles to any external recipient (canisters or Account IDs).
-- Use cycles inside of Internet Computer applications.
+- Send or receive cycles to any external recipient (canisters, wallets).
+- Easily surface cycles inside of Internet Computer applications.
 
-These operations are called via the Ledger's API, whether it is directly through that interface, or via a Dank-integrated IC application that leverages said interface to offer the features via a one-click UI/app.
-
-Dank is an autonomous Open Internet Service without external control, meaning all of these operations are handled trustlessly by the protocol, and in sole reaction to the user's requests and actions.
+These operations are called via Dank's Ledger, whether it is directly through Dank's Main Canister interface, or via a Dank-integrated IC application that leverages said interface to offer the features via a one-click UI/app.
 
 ## How do Dank's Ledgers work?
 
@@ -33,7 +31,7 @@ Secondly, **multi-canister infrastructure**, a sub-set of canisters inside the l
 
 The Main Dank Canister **also acts as a universal Canister ID** for all users. What do we mean by this? When developing or navigating the Internet Computer, you may encounter the need to use cycles. When you do so, the balance comes from a Cycles Wallet (because Principal IDs can't hold cycles) which you specify with a Canister ID. 
 
-For example, when deploying a canister using the Canister SDK, you must set a default wallet from where the cycles to be consumed will be spent.
+For example, when deploying a canister using the DFINITY Canister SDK, you must set a default wallet from where the cycles to be consumed will be spent.
 
 In the case of Dank, that Canister ID is **universal**, since Dank is the 'Cycles Wallet' for all Dank users (like a decentralized bank!).
 

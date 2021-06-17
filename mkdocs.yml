@@ -25,6 +25,7 @@ nav:
   - Welcome to Dank 👋: index.md
   - Protocol Overview 🗺️:
     - How Dank Works: protocol-overview/how-dank-works.md
+    - The Cycles Ledger: protocol-overview/cycles-ledger.md
     - Participant Use Cases: protocol-overview/dank-use-cases.md
     - Common Terms : protocol-overview/common-terms.md       
   - Getting Started 🏁:
@@ -36,9 +37,9 @@ nav:
       - Authenticate users to IC Apps: getting-started/overview.md
       - Query data from Dank: getting-started/overview.md            
   - Interfaces 🧰:
-    - Main Dank Interface: canister-manager-proxy/overview.md
-    - History Archive: canister-manager-proxy/overview.md
-    - Ledger Node: canister-manager-proxy/overview.md    
+    - Main Dank Interface: interfaces/main-dank-canister.md
+    - History Archive: interfaces/history-archive.md
+    - Ledger Node: interfaces/ledger-node.md    
   - Resources 💡:
     - Resource Library: resources/library.md
     - Our App Ecosystem: resources/apps-with-dank.md

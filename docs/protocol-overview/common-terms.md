@@ -39,7 +39,6 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - Your  **wallet address**, used to surface balances and authenticate.
 - It's an **address** you can send cycles or other assets to.
 - It's an **identifier** you can use to sign into Internet Computer apps.
-- They can hold any ledger-based, or NNS compatible token.
 - Also could be mentioned as **public key** or **address**.
 - Part of a key-pair, therefore accompanied by a **private key**.
 - On the Internet Computer, they look like:
@@ -53,7 +52,7 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 
 ### Wallet
 - The interface you use to surface your Principal ID account and balances.
-- Dank Users can be surfaced using the [Plug browser wallet](https://plugwallet.ooo).
+- Dank users can surface their balances using the [Plug browser wallet](https://plugwallet.ooo).
 
 
 ### Seed Phrase
@@ -95,17 +94,16 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - Charging Stations are a type of canister on the Internet Computer.
 - Their purpose is to **refill canisters with cycles** to fund their functioning.
 - They can be configured to do so in a **smart and programmatic way**.
-- Dank Users can deploy them pre-built ones with Dank's built-in API calls.
-- Charging Stations are refilled with cycles from your balance in Dank.
+
 
 ### Cycles Distribution
-- A feature of the Dank Protocol for charging stations.
-- Allows Dank Users to configure cycles distribution for canisters inside their charging stations.
+- A configuration setting in charging stations
+- Allows Users to configure cycles distribution for canisters inside their charging stations.
 - Sets priority of cycles distribution based on preference or cycles consumption.
 
 ### Auto-refill Rules
-- A feature of the Dank Protocol for charging stations.
-- Allows Dank Users to configure triggers and limits on cycles refills for their charging stations.
+- A configuration setting for charging stations.
+- Allows Users to configure triggers and limits on cycles refills for their charging stations.
 
 ### Open Internet Services
 - A service on the Internet Computer running autonomous code

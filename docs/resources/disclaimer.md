@@ -4,7 +4,7 @@ date: "1"
 
 # Legal Disclaimer
 
-Dank is an Open Internet Service / protocol on the Internet Computer for cycles (and other assets) based financial services and management. It is composed of a multi-canister architecture containing a Cycles ledger, a Charging Station Interface, and a Canister Manager Proxy Interface, which are governed by the autonomous Dank protocol. Dank is fully open source, from the protocol and ledger’s code, to the interfaces that compose it, and is in its totality deployed on the trustless, decentralized, permissionless and autonomous Internet Computer computational blockchain.
+Dank is an Open Internet Service / protocol on the Internet Computer for cycles (and other assets) based financial services and management. It is composed of a multi-canister architecture governed by the autonomous Dank protocol. Dank is fully open source, from the protocol and ledger’s code, to the interfaces that compose it, and is in its totality deployed on the trustless, decentralized, permissionless and autonomous Internet Computer computational blockchain.
 
 Dank is provided “as is”, and utilized at your own risk and responsibility without warranties, as it is a self-governed open internet service on an autonomous network. Despite Dank, and its main interfaces, having been developed by Fleek LLC, the project and protocol is made to be a community-owned and developed protocol, which runs freely on canisters on the self-governed Internet Computer.
 
