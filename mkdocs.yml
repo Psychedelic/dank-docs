@@ -31,11 +31,12 @@ nav:
   - Getting Started 🏁:
       - Main Interface Overview: getting-started/overview.md
       - Setting Up Environment: getting-started/overview.md
-      - Create/Interact with Accounts: getting-started/overview.md      
+      - Interacting with Accounts: getting-started/overview.md      
       - Send & operate with cycles: getting-started/overview.md
       - Create & manage canisters: getting-started/overview.md  
-      - Authenticate users to IC Apps: getting-started/overview.md
-      - Query data from Dank: getting-started/overview.md            
+      - Authenticating Dank Users: getting-started/overview.md
+      - Query data from Dank: getting-started/overview.md
+      - Creating a Dank App: getting-started/dank-app.md            
   - Interfaces 🧰:
     - Main Dank Interface: interfaces/main-dank-canister.md
     - History Archive: interfaces/history-archive.md
