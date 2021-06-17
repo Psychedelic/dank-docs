@@ -2,6 +2,7 @@
 date: "1"
 ---
 # How Dank Works
+## The Open Internet Service for Cycle-based Finances
 
 ![](imgs/dank-architecture.svg)
 
