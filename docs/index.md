@@ -6,9 +6,7 @@ date: "1"
 
 Dank is an infrastructure layer Open Internet Service on the Internet Computer, that provides cycle-based financial services to users and developers! Here you'll find all developer documentation you will need to get started using Dank, and interacting with the interfaces and features it provides.
 
-**Important:** Dank is live on the Internet Computer in **Alpha state** and is in active development as enhancements are made, before the protocol is made fully community owned and governed. You can join our community to follow -and aid!- it's development. **This is V1 of our documentation** and enhanced guides and more in-depth use cases will follow soon.
-
-**[Read our reveal & intro article](https://medium.com/@dank_ois/e7dd8e4c3d25?source=friends_link&sk=91bd9be1283ccf00d115b40ed539c4e1)**, and visit the **Protocol Overview** section to learn the basics. Or jump onto our **Getting Started** guide to start using and interacting with Dank!
+**Important:** Dank is coming soon, therefore this is a placeholder documentation, and the full technical specifications and details will be released soon.
 
 ## Basic Concepts
 Learn the basics, and get to know the purpose and perks behind Dank!
