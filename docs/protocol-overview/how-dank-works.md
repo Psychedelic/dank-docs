@@ -75,7 +75,7 @@ One step, and one unique identifier for both identity and cycles balance. Connec
 
 **Reference Implementation:**
 
-[Plugwallet.ooo](https://plugwallet.ooo/) is a browser wallet / identity / authentication provider that uses Dank, and any platform will be able to integrate to enable a seamless one-step authentication flow in IC browser experiences. By integrating Plug, you can easily authenticate Principal IDs and surface their balances in-app (and trigger transactions) in one seamless step.
+[Plugwallet.ooo](https://plugwallet.ooo/) is a browser wallet / identity / authentication provider that uses Dank, and any platform will be able to integrate to enable a seamless one-step authentication flow in IC browser experiences. By integrating Plug, you can easily authenticate Principal IDs and surface their balances in-app (and trigger transactions) in one seamless step. It also is the next step in a Principal-ID centric version of the IC, where all assets (Cycles, ICP, custom tokens) can be managed under one Principal ID and users can use that unique address as their universal account across the network, when using any IC app.
 
 ## Integratable into any IC App
 
