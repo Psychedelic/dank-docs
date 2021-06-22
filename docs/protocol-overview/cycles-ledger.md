@@ -7,6 +7,10 @@ date: "1"
 
 The core functioning of Dank is acting as a decentralized bank for the Internet Computer, allowing Principal IDs to hold cycles without needing a separate Cycles Wallet.
 
+!!! info
+
+    Dank is currently in development and this documentation and the initial architecture/scope of Dank might be subject to changes or modifications as that evolves. We'll update this documentation recurrently on our path to V1.
+
 In a nutshell, with Dank we created a Cycles Ledger so that a user can hold them and interact with them using nothing but a Principal ID. Dank’s Cycles Ledger holds cycles in an auto-scalable, autonomous, multi-canister infrastructure, and maps the balances to each user’s Principal ID, using big-map to track each associated balance. This way, we abstract the need of using a Cycles Wallet (canister that holds cycles for users), and managing a separate ID to hold cycles.
 
 Cycles are just the beginning. We are looking forward to creating a solution for ICP to also allow users to hold ICP with just a Principal ID. We have already **worked with the community on a new standard, using Principal IDs as unique identifiers on the network**, that would also enable anyone in the future to use a universal token interface to create tokens and token ledgers that any user can hold/own with just a Principal ID. 

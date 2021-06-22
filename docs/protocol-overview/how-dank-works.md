@@ -8,6 +8,10 @@ date: "1"
 
 Dank is an Open Internet Service and protocol for `cycle-based finances and development` on the Internet Computer. It lives in a tamperproof multi-canister architecture, composed by a main canister, and a sub-set of canisters storing metadata, transactions records, and cycles.
 
+!!! info
+
+    Dank is currently in development and this documentation and the initial architecture/scope of Dank might be subject to changes or modifications as that evolves. We'll update this documentation recurrently on our path to V1.
+
 The main purpose of Dank is being a decentralized cycles bank that enables users  to hold and use Cycles with just a Principal ID (they natively can't do so). It does this with the **Cycles ledger**, in which users hold a balance references to their ID. You can think of it as a token ledger for cycles!
 
 However that is one of the perks and services Dank offers to users & developers:

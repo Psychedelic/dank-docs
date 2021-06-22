@@ -36,7 +36,7 @@ nav:
       - Create & manage canisters: getting-started/overview.md  
       - Authenticating Dank Users: getting-started/overview.md
       - Query data from Dank: getting-started/overview.md
-      - Creating a Dank App: getting-started/dank-app.md            
+      - Creating a Dank App: getting-started/overview.md    
   - Interfaces 🧰:
     - Main Dank Interface: interfaces/main-dank-canister.md
     - History Archive: interfaces/history-archive.md
