@@ -90,6 +90,10 @@
   color: black;
 }
 
+.md-header-nav__topic.md-ellipsis {
+  color: white;
+}
+
 .md-icon svg {
   fill: black;
 }
