@@ -22,7 +22,7 @@ Dank Users, or Principal IDs registered in Dank. These are users in Dank's ecosy
 - Can be considered end-users of the network, its apps, and services.
 - Benefit from Dank's Ledgers to hold Cycles with their Principal IDs without needing a Canister Cycle Wallet or Account ID.
 - By having cycles centralized to their Principal ID, they can also access to seamless onboarding (one-click auth) to IC apps with just their Principal ID and no need to specify separate Cycles Wallet ID.
-- Can utilize Dank or Dank providers (like the Plug Wallet) to manage their IC assets via simple UIs.
+- Can utilize Dank or Dank providers to manage their IC assets via simple UIs.
 
 ### Developer Users
 - Due to Dank's nature, as a unified cycles environment, developers can use it as their main place for managing their canisters and projects on the Internet Computer.

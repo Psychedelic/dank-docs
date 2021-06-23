@@ -52,9 +52,6 @@ All operations involving cycles, for example, from canister creation and deploym
 
 This is achieved by having the Main Dank Canister act as a "proxy" for different cycle-related services/actions, like canister creation, to ensure the interactions between cycles and other Internet Computer assets or services. A simpler/abstracted experience for the user, concentrated under a single unique identifier (Principal ID).
 
-**Reference Implementation:**
-[Fleek.ooo](https://fleek.ooo/) is a platform that leverages Dank's cycles features to provide an Open Internet Service around development on the Internet Computer. Using just a Principal ID, developers can connect to Fleek.ooo and user their cycles to create canisters and charging stations from an abstracted UI.
-
 ## One-step User Onboardings for Apps that Surface Cycles
 
 ![](imgs/simple-auth.svg)
@@ -73,9 +70,6 @@ With the Cycles Ledger, Dank allows users to hold cycles with just a Principal I
 
 One step, and one unique identifier for both identity and cycles balance. Connecting cycles to Principal IDs is the first step towards enabling **the same composability** users are familiar with in Web3 (and networks like Ethereum), but on the IC.
 
-**Reference Implementation:**
-
-[Plugwallet.ooo](https://plugwallet.ooo/) is a browser wallet / identity / authentication provider that uses Dank, and any platform will be able to integrate to enable a seamless one-step authentication flow in IC browser experiences. By integrating Plug, you can easily authenticate Principal IDs and surface their balances in-app (and trigger transactions) in one seamless step. It also is the next step in a Principal-ID centric version of the IC, where all assets (Cycles, ICP, custom tokens) can be managed under one Principal ID and users can use that unique address as their universal account across the network, when using any IC app.
 
 ## Integratable into any IC App
 
