@@ -66,4 +66,6 @@ The XTC Cycles Token is **DFX compatible and has built-in functions that allow u
 
 Make the canister calls directly to XTC to execute, or use your XTC wallet in DFX just like a Cycles Wallet. The difference between the two is when you set your default-wallet on the DFX CLI, you just put XTC’s Token's Canister ID instead of a personal Cycles Wallet ID.
 
+The XTC Ledger Canister will take your Cycles Token balance, and withdraw (or unwrap) the cycles to fund any necessary operations.
+
 This way, XTC can not only allow developers to user their Cycles Token to fund their development (just like with Cycles Wallets); but also offer those features as "plug-n-play" features that any interface can leverage.
