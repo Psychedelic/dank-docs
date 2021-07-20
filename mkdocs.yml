@@ -25,7 +25,7 @@ nav:
   - Welcome to Dank 👋: index.md  
   - XTC - Cycles Token 🌀:
       - Overview: xtc/overview.md
-      - Getting Started: xtc/overview.md
+      - Getting Started: xtc/getting-started.md
       - Ledger Operations: xtc/overview.md      
       - Create & Manage Canisters: xtc/overview.md
       - Participant Use Cases: xtc/dank-use-cases.md
