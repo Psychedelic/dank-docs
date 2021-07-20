@@ -1,6 +1,6 @@
 site_name: "Documentation | Dank"
 site_author: dank.ooo
-site_description: Dank is an Open Internet Service on DFINITY's Internet Computer that provides cycle-based financial services to developers & users.
+site_description: Dank is an Open Internet Service on the Internet Computer network that provides cycle-based financial services to developers & users.
 site_url: https://docs.dank.ooo/
 copyright: '© 2021 Built by Dank'
 repo_name: psychedelic/dank-docs
@@ -26,12 +26,11 @@ nav:
   - XTC - Cycles Token 🌀:
       - Overview: xtc/overview.md
       - Getting Started: xtc/getting-started.md
-      - Ledger Operations: xtc/overview.md      
-      - Create & Manage Canisters: xtc/overview.md
-      - Participant Use Cases: xtc/dank-use-cases.md
+      - Ledger Operations: xtc/getting-started.md      
+      - Create & Manage Canisters: xtc/getting-started.md
   - Repositories 🧰:
     - Main Dank Repository: "https://github.com/Psychedelic/dank"
-    - XTC Cycles Token: "https://github.com/Psychedelic/dank"
+    - XTC Cycles Token: "https://github.com/Psychedelic/dank/tree/main/xtc"
   - Resources 💡:
     - Resource Library: resources/library.md
     - Common Terms : resources/common-terms.md    

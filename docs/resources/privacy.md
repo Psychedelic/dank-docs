@@ -4,9 +4,9 @@ date: "1"
 
 # Privacy Policy
 
-Dank is an Open Internet Service / protocol, without a central authority or point of control and running on an autonomous blockchain network.
+Dank is a collection of Open Internet Services, protocols, and products for the Internet Computer.
 
-Its usage **doesn’t imply in any way the collection, processing, usage, or request of personally identifiable information** from its users. It is the user’s responsibility to control, decide, and manage what personal information they will share when uploading content to the Internet Computer blockchain network through Dank, as Dank doesn’t require any to function, request it in any way, or has access/control over it, as it is only a protocol (or interface) to interact with the Internet Computer network.
+Its usage **doesn’t imply in any way the collection, processing, usage, or request of personally identifiable information** from its users. It is the user’s responsibility to control, decide, and manage what personal information they will share when uploading content to the Internet Computer blockchain network through Dank, as Dank and its products don't require any to function, request it in any way, or has access/control over it, as it is only a protocol (or interface) to interact with the Internet Computer network.
 
 Therefore, we will keep these privacy policies extra simple, because **they only apply to Dank’s website and main communication/community channels (Discord, Email, Twitter)**, and we don’t process personal information in those spaces either.
 
@@ -26,4 +26,4 @@ Our privacy policy might be subject to minor changes in the future, which will b
 
 If at any point there is a new communication channel that generates a point of data processing, like the future addition of a forum or newsletter, they will be added on this page and users will be informed on that specific point of entry as well. At the moment, none of those exist.
 
-If in need to contact us regarding our privacy policies, refer to our Discord channel or send us an email at **hi@dank.ooo**
+If in need to contact us regarding our privacy policies, refer to our Discord channel.

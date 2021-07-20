@@ -8,10 +8,10 @@ Dank is a **collection of different Open Internet Services and infrastructure la
 
 Here you will find detailed information on our products, guides regarding how to interact/integrate them, and other relevant development resources.
 
-- Main Dank Services Repository
-- Dank's Security & Reporting Policy
-- Official Website
-- Twitter Handle
+- [Main Dank Repository](https://github.com/Psychedelic/dank/) 
+- [Security & Issue Reporting Policy](https://github.com/Psychedelic/dank/security/policy) 
+- [Official Website](https://dank.ooo/) 
+- [Twitter Handle](https://twitter.com/dank_ois)
 
 -------
 
@@ -21,6 +21,10 @@ Here you will find detailed information on our products, guides regarding how to
 The Cycles Token (XTC) is a cycles ledger canister that provides users with a “wrapped/tokenized” version of cycles (XTC) that can be held with just a Principal ID (no need for a Cycles Wallet), and that also includes all the same developer features and functions (calls) as the Cycles Wallet (built into the XTC token itself). 
 
 Each XTC token represents and is backed 1-to-1 with 1 Trillion Cycles **(1 XTC = 1 Trillion Cycles)**. Through the XTC ledger users & developers can call/perform any traditional trade cycle actions (send, deposit, withdraw, etc.), as well as proxied canister development calls funded by cycles in their XTC balance (create canister, proxy calls to canister methods, topping up cycles in calls).
+
+- [XTC Website](https://dank.ooo/xtc/) 
+- [Using XTC Guide](https://docs.dank.ooo/xtc/getting-started/)
+- [Repository](https://github.com/Psychedelic/dank/tree/main/xtc)
 
 !!! Important
 

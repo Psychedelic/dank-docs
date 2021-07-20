@@ -31,12 +31,6 @@ Each XTC token represents and is backed **1-to-1 with 1 Trillion Cycles (1 XTC =
 ## The XTC Cycles Token Ledger
 ![](imgs/transaction.svg)
 
-The XTC Cycles Token is a token built following a Principal-ID centric token standard [(Repository)](https://github.com/Psychedelic/standards) where users deposit cycles and get a 1-1 balance of XTC (1 XTC = 1 Trillion Cycles). It is an **alternative to using Cycles Wallet in terms of using and accessing cycles on the Internet Computer**.
-
-Think of a Cycles Wallet as a smart contract wallet/account on Ethereum, where on the other hand Dank’s Cycle Token (XTC) is like a token contract (with added functionality) facilitating users to seamlessly hold/access/transfer/use/develop with cycles.
-
-You can learn the main differences between using XTC and a Cycles Wallet [in this article](https://medium.com/@dank_ois/b9a1d3ddcebe?source=friends_link&sk=0d4c790eda6883d1c013b10cdb8f89f4). 
-
 
 
 ## Canister Development & Proxy Calls Through XTC 

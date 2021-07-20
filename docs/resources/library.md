@@ -4,7 +4,7 @@ date: "1"
 ---
 # Resource Library
 
-Dank's main resources, useful reads, and tools for working and developing with Dank on DFINITY's Internet Computer.
+Dank's main resources, useful reads, and tools for working and developing with Dank on the Internet Computer.
 
 ## Resource Library
 
@@ -15,7 +15,7 @@ Dank's main resources, useful reads, and tools for working and developing with D
 - [Dank's Blog](https://medium.com/dank-ois)
 
 ### Internet Computer Intro Concepts:
-- [DFINITY's Internet Computer](https://dfinity.org/)
+- [The Internet Computer](https://dfinity.org/)
 - [Canisters on the IC](https://sdk.dfinity.org/docs/developers-guide/working-with-canisters.html)
 - [Cycles, ICP, and tokens](https://medium.com/dfinity/the-internet-computers-token-economics-an-overview-29e238bd1d83)
 - [DFINITY's Canister SDK](https://sdk.dfinity.org/docs/index.html)
