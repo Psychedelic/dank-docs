@@ -22,31 +22,24 @@ markdown_extensions:
   - toc:
       permalink: true
 nav:
-  - Welcome to Dank 👋: index.md
-  - Protocol Overview 🗺️:
-    - How Dank Works: protocol-overview/how-dank-works.md
-    - The Cycles Ledger: protocol-overview/cycles-ledger.md
-    - Participant Use Cases: protocol-overview/dank-use-cases.md
-    - Common Terms : protocol-overview/common-terms.md       
-  - Getting Started 🏁:
-      - Main Interface Overview: getting-started/overview.md
-      - Setting Up Environment: getting-started/overview.md
-      - Interacting with Accounts: getting-started/overview.md      
-      - Send & operate with cycles: getting-started/overview.md
-      - Create & manage canisters: getting-started/overview.md  
-      - Authenticating Dank Users: getting-started/overview.md
-      - Query data from Dank: getting-started/overview.md
-      - Creating a Dank App: getting-started/overview.md    
-  - Interfaces 🧰:
-    - Main Dank Interface: interfaces/main-dank-canister.md
-    - History Archive: interfaces/history-archive.md
-    - Ledger Node: interfaces/ledger-node.md    
+  - Welcome to Dank 👋: index.md  
+  - XTC - Cycles Token 🌀:
+      - Overview: xtc/overview.md
+      - Getting Started: xtc/overview.md
+      - Ledger Operations: xtc/overview.md      
+      - Create & Manage Canisters: xtc/overview.md
+      - Participant Use Cases: xtc/dank-use-cases.md
+  - Repositories 🧰:
+    - Main Dank Repository: "https://github.com/Psychedelic/dank"
+    - XTC Cycles Token: "https://github.com/Psychedelic/dank"
   - Resources 💡:
     - Resource Library: resources/library.md
+    - Common Terms : resources/common-terms.md    
     - Our App Ecosystem: resources/apps-with-dank.md
     - Dank's Blog: "https://medium.com/dank-ois"
     - Terms / Disclaimer: resources/disclaimer
     - Privacy Policy: resources/privacy
+    - Security Policy: "https://github.com/Psychedelic/dank/security/policy"
     - Trademark: resources/trademark
  
 extra:
