@@ -1,8 +1,7 @@
 ---
 date: "1"
 ---
-
-# Welcome to Dank
+![Dank Logo](https://storageapi.fleek.co/fleek-team-bucket/Dank/Banner.png)
 
 Dank is a **collection of different Open Internet Services and infrastructure layer protocols on the Internet Computer** focused on cycle-based finance services (to begin with).
 

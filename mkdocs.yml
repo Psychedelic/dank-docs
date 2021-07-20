@@ -1,6 +1,6 @@
 site_name: "Documentation | Dank"
 site_author: dank.ooo
-site_description: Dank is an Open Internet Service on the Internet Computer network that provides cycle-based financial services to developers & users.
+site_description: Dank is a collection of Open Internet Service on the Internet Computer network that provides cycle-based financial services to developers & users.
 site_url: https://docs.dank.ooo/
 copyright: '© 2021 Built by Dank'
 repo_name: psychedelic/dank-docs
