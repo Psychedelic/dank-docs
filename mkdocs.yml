@@ -26,8 +26,8 @@ nav:
   - XTC - Cycles Token 🌀:
       - Overview: xtc/overview.md
       - Getting Started: xtc/getting-started.md
-      - Ledger Operations: xtc/getting-started/#ledger-operations     
-      - Create & Manage Canisters: xtc/getting-started/#createandmanagecanisters
+      - Ledger Operations: xtc/getting-started/#ledger-operations   
+      - Create & Manage Canisters: xtc/getting-started/#create-and-manage-canisters
   - Repositories 🧰:
     - Main Dank Repository: "https://github.com/Psychedelic/dank"
     - XTC Cycles Token: "https://github.com/Psychedelic/dank/tree/main/xtc"
