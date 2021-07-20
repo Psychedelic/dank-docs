@@ -44,7 +44,26 @@ The XTC Cycles Token was built following a Principal-ID centric token standard [
 
 You can learn the main differences between using XTC and a Cycles Wallet [in this article](https://medium.com/@dank_ois/b9a1d3ddcebe?source=friends_link&sk=0d4c790eda6883d1c013b10cdb8f89f4).
 
+Just like the Cycles Wallets, the XTC Cycles Token is a **cycles provider for development on the IC**. It was built using the same interface as Cycles Wallet and has built-in proxy-call methods to create and manage canisters.
+
+One important difference is that with XTC, instead of having a per-user Cycles Wallet ID, all XTC users share the same **“Universal ID” (XTC ledger canister ID)** that they can set as their Wallet IDs. Which means users -and developers- don't need to worry about authenticating multiple unique identifiers, and focus on just Principal IDs (since any app that integrates XTC would know what Wallet ID they need to authorize for the user!):
+
+That abstraction is what enables a lot of amazing experience benefits:
+
+- Better DeFi/Dapp compatibility (easier to integrate, access, and send cycles.)
+- Smoother onboarding of users & their cycles (no need to authenticate separate Cycles Wallets)
+- Composability across apps that surface cycles (one ID to surface the same balance)
+- Friendlier format for GUIs (1 XTC = 1,000,000,000,000 cycles = 1$ approx)
+- But standard format on APIs/CLI for development (1,000,000,000,000 XC)
+
+Meaning XTC **has the same development perks and features of Cycles Wallet, but with a better compatibility for DeFi/Dapp experiences**.
 
 
 ## Canister Development & Proxy Calls
 ![](imgs/canister.svg)
+
+The XTC Cycles Token is **DFX compatible and has built-in functions that allow users to call the XTC Token canister to create, fund, or make proxy calls** to canisters on the Internet Computer using their XTC cycles balance.
+
+Make the canister calls directly to XTC to execute, or use your XTC wallet in DFX just like a Cycles Wallet. The difference between the two is when you set your default-wallet on the DFX CLI, you just put XTC’s Token's Canister ID instead of a personal Cycles Wallet ID.
+
+This way, XTC can not only allow developers to user their Cycles Token to fund their development (just like with Cycles Wallets); but also offer those features as "plug-n-play" features that any interface can leverage.
