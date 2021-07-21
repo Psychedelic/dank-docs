@@ -16,7 +16,6 @@ Each XTC token is backed **1-to-1 with 1 Trillion Cycles (1 XTC = 1 Trillion Cyc
 - [View Canister on IC Rocks](https://ic.rocks/principal/aanaa-xaaaa-aaaah-aaeiq-cai)
 - [Review the Code on our GitHub](https://github.com/Psychedelic/dank/tree/main/xtc)
 - [Visit our Website for more Details](https://dank.ooo/xtc/)
-- [Visit our Website for more Details](https://dank.ooo/xtc/)
 
 
 !!! Important
