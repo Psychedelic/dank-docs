@@ -8,11 +8,11 @@ date: "1"
 
 The Cycles Token (XTC) is Dank's first product. A cycles canister that provides users with a “wrapped/tokenized” version of cycles (XTC) **that can be held with just a Principal ID** (no need for a Cycles Wallet).
 
-**The Cycles Token (XTC) also has the same built-in developer features and functionality as the Cycles Wallet** (built into the XTC token itself) so that it can used to **create and manage canisters through proxy calls, or develop in DFX** funding the cycles fees from your XTC Cycles Token balance.
+**The Cycles Token (XTC) also has the same built-in developer features and functionality as the Cycles Wallet** (built into the XTC token itself) so that it can used to **create and manage canisters through proxy calls, or develop in DFX** funding the cycles fees from your Cycles Token balance.
 
-Each XTC token represents and is backed **1-to-1 with 1 Trillion Cycles (1 XTC = 1 Trillion Cycles)**  that they can hold, utilize, pay for computation, and trade with just like with any other token, tied to their Principal ID (and only requiring a Principal ID).
+Each XTC token is backed **1-to-1 with 1 Trillion Cycles (1 XTC = 1 Trillion Cycles)**  that users can hold, utilize, pay for computation, and trade with just like with any other token, tied to their Principal ID (and only requiring a Principal ID).
 
-- XTC Cycles Token Canister ID: ```aanaa-xaaaa-aaaah-aaeiq-cai```
+- Cycles Token (XTC) Canister ID: ```aanaa-xaaaa-aaaah-aaeiq-cai```
 - [View Canister on IC Rocks](https://ic.rocks/principal/aanaa-xaaaa-aaaah-aaeiq-cai)
 - [Review the Code on our GitHub](https://github.com/Psychedelic/dank/tree/main/xtc)
 - [Visit our Website for more Details](https://dank.ooo/xtc/)
