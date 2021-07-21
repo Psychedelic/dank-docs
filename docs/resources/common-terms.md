@@ -27,7 +27,7 @@ Mini-dictionary specific to the Dank, its products, and Internet Computer ecosys
 ### Cycles Token (XTC).
 - A cycles token that wraps cycles so users can hold them with just a `Principal ID`
 - Central piece of Dank's cycles finance open internet services.
-- Registered `Principal IDs` represent Cycles balances in this ledger.
+- Registered `Principal IDs` have assigned Cycles Token (XTC) balances.
 - Cycles in XTC are wrapped into Cycles Tokens (XTC). 1 XTC = 1 Trillion Cycles.
 - The XTC canister handles operations and user requested transactions.
 - The XTC canister is compatible with DFX and has proxy canister management calls.
