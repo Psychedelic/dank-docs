@@ -17,21 +17,20 @@ Mini-dictionary specific to the Dank, its products, and Internet Computer ecosys
 - It holds token balances, referenced from their respective ledgers.
 - When added to XTC, it is considered a XTC User.
 
-### XTC Users
-- A user's Principal ID or Account as stated above, registered as a balance in XTC token ledger.
+### Cycles Token (XTC) Users
+- A user's Principal ID or Account as stated above, registered as a balance in the XTC Token's canister.
 - It is the same Principal ID, but integrated to XTC.
-- It is registered in XTC Cycles Token ledger and assigned a balance.
+- It is registered in te Cycles Token (XTC) canister and assigned a balance.
 - Because of this, the Principal ID can hold Cycles without a separate Cycles Wallet (canister).
 - It is identified and referenced inside and outside of XTC with the original Principal ID.
 
-### XTC Cycles Token
-- A token ledger governed by XTC.
-- It creates a ledger for Cycles so users can hold them with just a `Principal ID`
+### Cycles Token (XTC).
+- A cycles token that wraps cycles so users can hold them with just a `Principal ID`
 - Central piece of Dank's cycles finance open internet services.
 - Registered `Principal IDs` represent Cycles balances in this ledger.
-- Cycles in XTC are wrapped (XTC). 1 XTC = 1 Trillion Cycles.
-- The XTC ledger handles operations and user requested transactions.
-- The XTC ledger is compatible with DFX and has proxy canister management calls.
+- Cycles in XTC are wrapped into Cycles Tokens (XTC). 1 XTC = 1 Trillion Cycles.
+- The XTC canister handles operations and user requested transactions.
+- The XTC canister is compatible with DFX and has proxy canister management calls.
 
 ### Principal ID (Public Key)
 - A user's main identifier on the Internet Computer.
@@ -69,7 +68,7 @@ Mini-dictionary specific to the Dank, its products, and Internet Computer ecosys
 - Cycles are another Internet Computer token that represents computational power.
 - You burn it to use that computational power and memory to power canisters and the software in them.
 - They can only be created from **ICP**.
-- You can send cycles to other XTC Users, or to any canisters.
+- You can send cycles to other Cycles Token (XTC) Users, or to any canisters.
 - You can deposit cycles from external sources to your balance in XTC.
 
 ### Neurons

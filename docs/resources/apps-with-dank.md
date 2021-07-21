@@ -4,7 +4,7 @@ date: "1"
 ---
 # Dank App Ecosystem
 
-Meet the Dank-est apps. These are the first applications that are leveraging (or will soon integrate!) Dank's services (like XTC) to offer seamless cycles, canister, and onboarding experiences on the Internet Computer!
+Meet the Dank-est apps. These are the first applications that are leveraging (or will soon integrate!) Dank's services (like the Cycles Token, XTC) to offer seamless cycles, canister, and onboarding experiences on the Internet Computer!
 
 
 | Logo  	| Name  	| Description |

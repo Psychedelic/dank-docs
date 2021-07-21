@@ -2,7 +2,7 @@
 date: "1"
 ---
 
-# XTC - Getting Started
+# Cycles Token (XTC) - Getting Started
 
 ![](imgs/xtc-trx.png)
 
