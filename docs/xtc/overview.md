@@ -28,7 +28,7 @@ Each Cycles Token (XTC) token is backed **1-to-1 with 1 Trillion Cycles (1 XTC =
 
 As of V0's Alpha release, these are the features that are built-into the Cycles Token (XTC) canister, and available as methods to be called.
 
-- **Depositing cycles** (sending cycles to XTC, getting a 1-1 balance).
+- **Depositing cycles** (sending cycles to XTC Token Canister, minting a 1-1 Cycles Token (XTC) balance).
 - **Checking your balance** (asking the XTC canister for your cycles balance).
 - **Transferring cycles** (transfer cycles to Principal IDs).
 - **Withdrawing cycles** (send cycles to a Canister ID).
