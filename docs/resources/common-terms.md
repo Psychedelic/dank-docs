@@ -4,7 +4,7 @@ date: "1"
 
 # Common Terms
 
-Mini-dictionary specific to the Dank and Internet Computer ecosystem!
+Mini-dictionary specific to the Dank, its products, and Internet Computer ecosystem!
 
 -----
 
@@ -15,24 +15,22 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - An account in the Internet Computer is comprised by a `Principal ID (public)`, and a `Seed Phrase or Private Key`.
 - Your account is both your wallet, and your identity for IC applications.
 - It holds token balances, referenced from their respective ledgers.
-- When added to Dank, it is considered a Dank User.
+- When added to XTC, it is considered a XTC User.
 
-
-### Dank User / Account
-- A user's Principal ID or Account as stated above, registered as a user in Dank's protocol.
-- It is the same Principal ID, but integrated to Dank's protocol open internet services.
-- It is registered in Dank's Cycles Ledger and assigned a cycles balance.
+### Cycles Token (XTC) Users
+- A user's Principal ID or Account as stated above, registered as a balance in the XTC Token's canister.
+- It is the same Principal ID, but integrated to XTC.
+- It is registered in te Cycles Token (XTC) canister and assigned a balance.
 - Because of this, the Principal ID can hold Cycles without a separate Cycles Wallet (canister).
-- It is identified and referenced inside and outside of Dank with the original Principal ID.
+- It is identified and referenced inside and outside of XTC with the original Principal ID.
 
-### Cycles Ledger
-- A multi-canister token ledger governed by the Dank protocol.
-- It creates a ledger for Cycles so users can hold them with just a `Principal ID`
+### Cycles Token (XTC).
+- A cycles token that wraps cycles so users can hold them with just a `Principal ID`
 - Central piece of Dank's cycles finance open internet services.
-- Registered `Principal IDs` represent Cycles balances in this ledger.
-- The Cycles themselves are held in a scalable sub-set of canisters.
-- The Dank protocol handles operations and user requested transactions.
-- Since transactions between Dank Users are internal to the ledger, they are more economical.
+- Registered `Principal IDs` have assigned Cycles Token (XTC) balances.
+- Cycles in XTC are wrapped into Cycles Tokens (XTC). 1 XTC = 1 Trillion Cycles.
+- The XTC canister handles operations and user requested transactions.
+- The XTC canister is compatible with DFX and has proxy canister management calls.
 
 ### Principal ID (Public Key)
 - A user's main identifier on the Internet Computer.
@@ -52,13 +50,12 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 
 ### Wallet
 - The interface you use to surface your Principal ID account and balances.
-- Dank users can surface their balances using the [Plug browser wallet](https://plugwallet.ooo).
 
 
 ### Seed Phrase
 - A mnemonic phrase version of your account's Private Key.
 - Composed by 12-words in a specific order that represent your Private Key.
-- They are used to **recover or import** your Principal ID / Dank User.
+- They are used to **recover or import** your Principal ID.
 - Example: `table birds have paper granola furniture football country mercury genesis soup holder`
 
 ### ICP
@@ -71,8 +68,8 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - Cycles are another Internet Computer token that represents computational power.
 - You burn it to use that computational power and memory to power canisters and the software in them.
 - They can only be created from **ICP**.
-- You can send cycles to other Dank Users, or to any canisters.
-- You can deposit cycles from external sources to your balance in Dank.
+- You can send cycles to other Cycles Token (XTC) Users, or to any canisters.
+- You can deposit cycles from external sources to your balance in XTC.
 
 ### Neurons
 - NNS token held by users to vote on the Network Nervous System governance.
@@ -109,4 +106,4 @@ Mini-dictionary specific to the Dank and Internet Computer ecosystem!
 - A service on the Internet Computer running autonomous code
 - It is managed by open tokenized governance systems that work similarly to NNS
 - They can have their own tokens, specific to each governance system or features
-- Dank is an open internet service with a roadmap towards fully community-owned governance
+- Dank is a collection of open internet service with a roadmap towards fully community-owned governance

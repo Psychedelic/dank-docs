@@ -1,6 +1,6 @@
 site_name: "Documentation | Dank"
 site_author: dank.ooo
-site_description: Dank is an Open Internet Service on DFINITY's Internet Computer that provides cycle-based financial services to developers & users.
+site_description: Dank is a collection of Open Internet Service on the Internet Computer.
 site_url: https://docs.dank.ooo/
 copyright: '© 2021 Built by Dank'
 repo_name: psychedelic/dank-docs
@@ -22,31 +22,24 @@ markdown_extensions:
   - toc:
       permalink: true
 nav:
-  - Welcome to Dank 👋: index.md
-  - Protocol Overview 🗺️:
-    - How Dank Works: protocol-overview/how-dank-works.md
-    - The Cycles Ledger: protocol-overview/cycles-ledger.md
-    - Participant Use Cases: protocol-overview/dank-use-cases.md
-    - Common Terms : protocol-overview/common-terms.md       
-  - Getting Started 🏁:
-      - Main Interface Overview: getting-started/overview.md
-      - Setting Up Environment: getting-started/overview.md
-      - Interacting with Accounts: getting-started/overview.md      
-      - Send & operate with cycles: getting-started/overview.md
-      - Create & manage canisters: getting-started/overview.md  
-      - Authenticating Dank Users: getting-started/overview.md
-      - Query data from Dank: getting-started/overview.md
-      - Creating a Dank App: getting-started/overview.md    
-  - Interfaces 🧰:
-    - Main Dank Interface: interfaces/main-dank-canister.md
-    - History Archive: interfaces/history-archive.md
-    - Ledger Node: interfaces/ledger-node.md    
+  - Welcome to Dank 👋: index.md  
+  - Cycles Token (XTC) 🌀:
+      - Overview: xtc/overview.md
+      - Getting Started: xtc/getting-started.md
+      - Ledger Operations: xtc/getting-started/#ledger-operations   
+      - Create & Manage Canisters: xtc/getting-started/#create-and-manage-canisters
+      - Set as Default DFX Wallet: xtc/gettign-started/#set-cycles-token-xtc-as-your-default-wallet-in-dfx
+  - Repositories 🧰:
+    - Main Dank Repository: "https://github.com/Psychedelic/dank"
+    - Cycles Token (XTC): "https://github.com/Psychedelic/dank/tree/main/xtc"
   - Resources 💡:
     - Resource Library: resources/library.md
+    - Common Terms : resources/common-terms.md    
     - Our App Ecosystem: resources/apps-with-dank.md
     - Dank's Blog: "https://medium.com/dank-ois"
     - Terms / Disclaimer: resources/disclaimer
     - Privacy Policy: resources/privacy
+    - Security Policy: "https://github.com/Psychedelic/dank/security/policy"
     - Trademark: resources/trademark
  
 extra:
