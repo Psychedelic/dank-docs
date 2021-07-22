@@ -11,7 +11,7 @@ Time to start using the Cycles Token (XTC)! Here you will find all currently ava
 - Ledger Operations (Deposit, Send, Withdraw, Check balances...)
 - Proxy Canister Calls (Create Canister, Make Proxy Call to Canisters)
 
-You can **get your first Cycles Token (XTC) balance** by either depositing cycles to the XTC Token Canister to mint them (see below), or getting a one-time redeem of 100$ worth of cycles from DFINITY's [Cycles Faucet tool](https://faucet.dfinity.org/) (select the "Dank" option to get Cycles Tokens - XTC)
+You can **get your first Cycles Token (XTC) balance** by either depositing cycles to the XTC Token Canister to mint them (see below), or getting a one-time redeem of 100$ worth of cycles from DFINITY's [Cycles Faucet tool](https://faucet.dfinity.org/), selecting the option to redeem them as Dank's Cycles Token (XTC)!
 
 ## Interacting with Cycles Token (XTC) - On Mainnet (DFX)
 
