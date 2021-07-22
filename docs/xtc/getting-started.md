@@ -35,6 +35,8 @@ $ dfx canister --network=ic call aanaa-xaaaa-aaaah-aaeiq-cai balance "(principal
 (0)
 ```
 
+---
+
 ### Depositing cycles to your Cycles Token (XTC) balance
 
 You can get your first Cycles Token (XTC) balance by either depositing cycles to the XTC Token Canister to mint them (see below), or getting a one-time redeem of 100$ worth of cycles from DFINITY's [Cycles Faucet tool](https://faucet.dfinity.org/), selecting the option to redeem them as Dank's Cycles Token (XTC)! 
@@ -69,6 +71,7 @@ Did you use DFINITY's Cycles Faucet tool, but selected the Cycles Wallet to rece
 dfx canister --network=ic --wallet=$(dfx identity --network=ic get-wallet) call --with-cycles $(echo "$(dfx wallet --network=ic balance | cut -d' ' -f1)-10000000000" | bc) aanaa-xaaaa-aaaah-aaeiq-cai mint "(principal \"$(dfx identity get-principal)\")"
 ```
 
+---
 
 ### Withdrawing Cycles to Canister
 Unwraps Cycles Token (XTC) into raw Cycles to send them to a Canister ID. (You should change the amount)
@@ -78,6 +81,8 @@ $ dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai burn "(
 (variant { Ok = 1 })
 ```
 
+---
+
 ### Transferring cycles to another XTC balance (Principal ID or Canister ID)
 Send Cycles Token (XTC) to a Principal ID, balances change internally on the XTC ledger. (You should change the amount)
 
@@ -86,7 +91,7 @@ $ dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai transfe
 (variant { Ok = 2 })
 ```
 
-----
+---
 
 ## Create and Manage Canisters
 
@@ -110,6 +115,8 @@ To check the status of the created canister run the dfx canister `status` comman
 dfx canister --network=ic --no-wallet status CREATED_CANISTER_ID
 ```
 
+---
+
 ### Proxy canister calls with XTC:
 
 XTC allows you to proxy all of your `dfx` calls through it so your Cycles Token (XTC) balance is used to fund the operations (the XTC canister unwraps them to raw cycles). To use this feature, you should use the `wallet_call` method. This method accepts four arguments:
@@ -124,6 +131,8 @@ Let's proxy a call to the Piggy Bank canister's `whoami` method (an example cani
 ```bash
 dfx canister --network=ic call aanaa-xaaaa-aaaah-aaeiq-cai wallet_call "(record { canister= principal \"dmj37-5iaaa-aaaad-qakya-cai\"; method_name= \"whoami\"; args= blob \"DIDL\01nh\01\00\00\"; cycles= (0:nat64); })"
 ```
+
+---
 
 ## Set Cycles Token (XTC) as your default wallet in dfx:
 
