@@ -30,8 +30,8 @@ As of V0's Alpha release, these are the features that are built-into the Cycles 
 
 - **Depositing cycles** (sending cycles to XTC Token Canister, minting a 1-1 Cycles Token (XTC) balance).
 - **Checking your balance** (asking the XTC canister for your cycles balance).
-- **Transferring cycles** (transfer cycles to Principal IDs).
-- **Withdrawing cycles** (send cycles to a Canister ID).
+- **Transferring cycles** (transfer Cycles Tokens (XTC) to Principal IDs or Canister IDs, inside the XTC Token ledger).
+- **Withdrawing cycles** (unwraps Cycles Tokens (XTC) into raw cycles, and sends them to Canister ID).
 - **Transaction history** (basic linear history of transactions).
 - **Creating canisters** (proxy call to create a canister using your XTC balance).
 - **Proxied canister calls** (create canisters, make calls to canisters, topping calls -or not- with cycles in XTC).
@@ -39,7 +39,7 @@ As of V0's Alpha release, these are the features that are built-into the Cycles 
 ## The Cycles Token (XTC) Canister
 ![](imgs/transactions.svg)
 
-The Cycles Token (XTC) was built following a Principal-ID centric token standard [(Repository)](https://github.com/Psychedelic/standards). Users deposit and lock cycles and get a 1-1 balance of Cycles Token (1 XTC = 1 Trillion Cycles). It is an **alternative to using Cycles Wallet in terms of using and accessing cycles on the Internet Computer**.
+The Cycles Token (XTC) was built following a Principal-ID centric token standard [(Repository)](https://github.com/Psychedelic/standards). Users deposit and lock cycles and get a 1-1 balance of Cycles Token (1 XTC = 1 Trillion Cycles) which they can access with just their Principal ID (though you can also transfer Cycles Tokens (XTC) to a Canister ID, which can hold a balance on the XTC Token ledger). It is an **alternative to using Cycles Wallet in terms of using and accessing cycles on the Internet Computer**.
 
 You can learn the main differences between using the Cycles Token (XTC) and a Cycles Wallet [in this article](https://medium.com/@dank_ois/b9a1d3ddcebe?source=friends_link&sk=0d4c790eda6883d1c013b10cdb8f89f4).
 
