@@ -39,7 +39,7 @@ $ dfx canister --network=ic call aanaa-xaaaa-aaaah-aaeiq-cai balance "(principal
 
 You can get your first Cycles Token (XTC) balance by either depositing cycles to the XTC Token Canister to mint them (see below), or getting a one-time redeem of 100$ worth of cycles from DFINITY's [Cycles Faucet tool](https://faucet.dfinity.org/), selecting the option to redeem them as Dank's Cycles Token (XTC)! 
 
-(**If you used the faucet already**, and chose the Cycles Wallet option but want to migrate to Cycles Tokens (XTC) [see this example](#using-dfx-deploy-with-cycles-token-xtc).)
+(**If you used the faucet already**, and chose the Cycles Wallet option but want to migrate to Cycles Tokens (XTC) [see this example](#sending-your-faucet-cycles-wallet-balance-to-cycles-token-xtc).)
 
 #### Depositing from a personal Cycles Wallet
 
@@ -86,7 +86,7 @@ $ dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai transfe
 (variant { Ok = 2 })
 ```
 
-
+----
 
 ## Create and Manage Canisters
 
