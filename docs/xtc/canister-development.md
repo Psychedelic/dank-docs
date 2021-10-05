@@ -6,20 +6,11 @@ date: "1"
 
 ![](imgs/xtc-trx.png)
 
-Time to start using the Cycles Token (XTC)! Here you will find all currently available methods to interact with the XTC Token Canister, and perform:
+With XTC, you can perform several canister development and management operations utilizing your Cycles Token (XTC) balance to fund the operations that require cycles.
 
-- Ledger Operations (Deposit, Send, Withdraw, Check balances...)
-- Proxy Canister Calls (Create Canister, Make Proxy Call to Canisters)
-
-## 🧰 Interacting with Cycles Token (XTC) - On Mainnet (DFX)
-
-Cycles Token (XTC) offers its services on the mainnet of the Internet Computer (IC). The XTC Token Canister ID on mainnet is `aanaa-xaaaa-aaaah-aaeiq-cai`. **You have to use this address for your calls**.
-
-### 🚨 Important: Formatting for XTC Values/Amounts in Calls
-
-1 XTC represents one trillion cycles (1,000,000,000,000). In frontends, and integrated UIs, we use the friendlier format with decimals (no zeroes, 1 XTC = 1 trillion cycles -- 0.5 XTC == 0.5 TC).
-
-But, for our **APIs and interfaces**, we utilize the **standard full numerical value of raw cycles** that XTC represents (1XTC = 1000000000000) to maintain accuracy and consistency with the development cycles/DFX experience. This is the example amount format you will see on the methods/calls below. So, to transfer 1 XTC, in the call you would specify 1000000000000, not 1.
+**Remember, to interact with XTC**:
+- Canister ID on mainnet:`aanaa-xaaaa-aaaah-aaeiq-cai`
+- Specify cycles in full amounts: Not 1 XTC, but `1000000000000`.
 
 ---
 ## 🔋 Create and Manage Canisters
