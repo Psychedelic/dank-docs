@@ -29,7 +29,7 @@ nav:
   - Ledger Operations: xtc/getting-started/#ledger-operations   
   - Create & Manage Canisters: xtc/getting-started/#create-and-manage-canisters
   - Set as Default DFX Wallet: xtc/getting-started/#set-cycles-token-xtc-as-your-default-wallet-in-dfx
-  - <b>Repositories</b> 🧰:
+  - <b>Repositories</b> 🧰: "#"
   - Main Dank Repository: "https://github.com/Psychedelic/dank"
   - Cycles Token (XTC): "https://github.com/Psychedelic/dank/tree/main/xtc"
   - Resources 💡:
