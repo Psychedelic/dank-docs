@@ -26,7 +26,7 @@ But, for our **APIs and interfaces**, we utilize the **standard full numerical v
 ## 📓 Ledger Operations
 These are all the operations related to interacting, using, and trading with your Cycles Token balance in the XTC Token Canister.
 
-### ✒️ Update Calls
+## ✒️ Update Calls
 The update calls described in this section charge a fee amount of tokens to prevent DDoS attack, this is necessary because of the reverse gas model of the IC. 
 
 All update functions are allowed to trap, instead of returning an error in order to take advantage of the canisters automatic, atomic state rollback.
@@ -35,7 +35,7 @@ The cost of the fee is not for financial benefit, but to cover the cost of compu
 
 ---
 
-### Mint (Deposit cycles to mint an XTC balance)
+### ⛏️ Deposit cycles to mint an XTC balance - Mint
 
 You can get your first Cycles Token (XTC) balance by either depositing cycles to the XTC Token Canister to mint them (see below), or getting a one-time redeem of 100$ worth of cycles from DFINITY's [Cycles Faucet tool](https://faucet.dfinity.org/), selecting the option to redeem them as Dank's Cycles Token (XTC)! 
 
@@ -72,7 +72,7 @@ dfx canister --network=ic --wallet=$(dfx identity --network=ic get-wallet) call 
 ---
 
 
-### Burn (Withdrawing cycles to a Canister)
+### 🔥 Withdrawing cycles to a Canister - Burn
 
 Unwraps Cycles Token (XTC) into raw Cycles to send them to a Canister ID. (You should change the amount)
 
@@ -83,7 +83,7 @@ $ dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai burn "(
 
 ---
 
-### transferErc20 (Transfer XTC to another XTC Balance)
+### 📨 Transfer XTC to another XTC Balance - transferErc20
 Send Cycles Token (XTC) to a Principal ID, balances change internally on the XTC ledger. (You should change the amount).
 
 Transfers `value` amount of tokens to user `to`, returns a `TxReceipt` which contains the transaction index or an error message.
@@ -95,7 +95,7 @@ DFX code example / daniel
 
 ---
 
-### transferFrom (Transfer XTC to another XTC Balance on Another's Behalf)
+### 📨 Transfer XTC to another XTC Balance on Another's Behalf - transferFrom
 
 Transfers `value` amount of tokens from user `from` to user `to`, this method allows canister smart contracts to transfer tokens on your behalf, it returns a `TxReceipt` which contains the transaction index or an error message.
 
@@ -105,7 +105,7 @@ DFX code example / daniel
 
 ---
 
-### approve (Set an Allowance to Another Identity)
+### 👛 Set an Allowance to Another Identity - approve
 
 You can set an allowance using this method, giving a third-party access to a specific number of tokens they can withdraw from your balance if they want.
 
@@ -117,7 +117,7 @@ DFX code example / daniel
 
 ---
 
-### getTransaction (Check Details of a Transaction)
+### 📒 Check Details of a Transaction - getTransaction
 
 Returns transaction detail of the transaction identified by ´index´. If the ´index´ is out of range, the execution traps. Transactions are indexed from zero.
 
@@ -125,7 +125,7 @@ Returns transaction detail of the transaction identified by ´index´. If the ´
 DFX code example / daniel
 ```
 
-### getTransactions (Check Details of Several Transactions)
+####  Check Details of Several Transactions - getTransactions
 
 Returns an array of transaction records in the range `[start, start + limit)`. To fend off DoS attacks, this function is allowed to trap, if limit is greater than the limit allowed by the token. This function is also allowed to trap if `start + limit > historySize()`.
 
@@ -136,9 +136,9 @@ DFX code example / daniel
 
 ---
 
-### 📡 Query Calls (Checking balances, allowances, and metadata)
+## 📡 User Query Calls
 
-### balanceOf
+### 🏦 Check Your Balance - balanceOf
 
 Returns the balance of user `who`.
 
@@ -146,13 +146,17 @@ Returns the balance of user `who`.
 DFX code example / daniel
 ```
 
-### allowance
+### Check the set allowance for an ID - allowance
 
 Returns the amount which `spender` is still allowed to withdraw from `owner`.
 
 ```bash
 DFX code example / daniel
 ```
+
+---
+
+## 🛰️ Metadata Query Calls
 
 ### logo
 
@@ -209,88 +213,6 @@ Returns the history size.
 
 ```bash
 DFX code example / daniel
-```
-
----
-## 🔋 Create and Manage Canisters
-
-You can create canisters using your Cycles Token (XTC) balance. This is, however, a low level api, if you want to deploy your canister using your XTC balance see [Using dfx deploy with Cycles Token](#using-dfx-deploy-with-cycles-token-xtc).
-
-Using `wallet_create_canister` method, you can create a canister and set the controller of
-the canister to a principal ID you want. If you leave the controller to be `null`, you will be automatically selected as the controller of the newly created canister. Using the `cycles` parameter, it is possible to deposit cycles to your new canister from your XTC balance.
-
-```bash
-$ dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai wallet_create_canister "(record {cycles= (AMOUNT:nat64); controller= (null); })"
-(
-  variant {
-    17_724 = record { 1_313_628_723 = principal "CREATED_CANISTER_ID" }
-  },
-)
-```
-
-To check the status of the created canister run the dfx canister `status` command with the returned `CREATED_CANISTER_ID`:
-
-```bash
-dfx canister --network=ic --no-wallet status CREATED_CANISTER_ID
-```
-
----
-
-### Proxy canister calls with XTC:
-
-XTC allows you to proxy all of your `dfx` calls through it so your Cycles Token (XTC) balance is used to fund the operations (the XTC canister unwraps them to raw cycles). To use this feature, you should use the `wallet_call` method. This method accepts four arguments:
-
-  - canister: principal -> Your target canister
-  - method_name: text -> The method you want to call from that canister
-  - args: blob -> The arguments you should pass to for the call
-  - cycles: nat64 -> The amount of cycles you want to pass
-
-Let's proxy a call to the Piggy Bank canister's `whoami` method (an example canister we deployed to show an example of a proxy call!). We expect this method to return our XTC balance's ID:
-
-```bash
-dfx canister --network=ic call aanaa-xaaaa-aaaah-aaeiq-cai wallet_call "(record { canister= principal \"dmj37-5iaaa-aaaad-qakya-cai\"; method_name= \"whoami\"; args= blob \"DIDL\01nh\01\00\00\"; cycles= (0:nat64); })"
-```
-
-
-## ✅ Set Cycles Token (XTC) as your default wallet in dfx:
-
-The dfx cli tool provides helper functions during development that consumes cycles from your wallet. You can set the XTC canister to be used for these functions.
-
-```bash
-dfx identity --network=ic set-wallet aanaa-xaaaa-aaaah-aaeiq-cai --force
-```
-
-### Using dfx deploy with Cycles Token (XTC):
-
-The `dfx deploy` command shows an error when deploying within a dfx project when the cycle wallet is set as the `XTC` canister. The `deploy` command successfully creates the canister, but fails when installing the wasm code (this is due to dfx assuming the controller of the new canister is the cycle wallet, not the dfx identity).
-
-To deploy a projects canisters, instead of `dfx deploy --network=ic` separate the canister and install commands:
-
-```bash
-dfx canister --network=ic create --all
-dfx deploy --network=ic --no-wallet
-```
-
-As an example of setting up and deploying a new project once dfx has been installed:
-
-```bash
-# Set XTC as the dfx cycle token
-dfx identity --network=ic set-wallet aanaa-xaaaa-aaaah-aaeiq-cai --force
-
-# Create a new dfx project
-dfx new example
-
-# move into the project directory
-cd example
-
-# install the node.js dependencies
-npm install
-
-# Create the empty canisters on mainnet
-dfx canister --network=ic create --all
-
-# Install the code into the empty canisters on mainnet
-dfx deploy --network=ic --no-wallet
 ```
 
 ---
