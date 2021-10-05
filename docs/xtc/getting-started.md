@@ -35,7 +35,7 @@ The cost of the fee is not for financial benefit, but to cover the cost of compu
 
 ---
 
-### ⛏️ Deposit cycles to mint an XTC balance - Mint
+### Deposit cycles to mint an XTC balance - Mint
 
 You can get your first Cycles Token (XTC) balance by either depositing cycles to the XTC Token Canister to mint them (see below), or getting a one-time redeem of 100$ worth of cycles from DFINITY's [Cycles Faucet tool](https://faucet.dfinity.org/), selecting the option to redeem them as Dank's Cycles Token (XTC)! 
 
@@ -72,7 +72,7 @@ dfx canister --network=ic --wallet=$(dfx identity --network=ic get-wallet) call 
 ---
 
 
-### 🔥 Withdrawing cycles to a Canister - Burn
+### Withdrawing cycles to a Canister - Burn
 
 Unwraps Cycles Token (XTC) into raw Cycles to send them to a Canister ID. (You should change the amount)
 
@@ -83,7 +83,7 @@ $ dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai burn "(
 
 ---
 
-### 📨 Transfer XTC to another XTC Balance - transferErc20
+### Transfer XTC to another XTC Balance - transferErc20
 Send Cycles Token (XTC) to a Principal ID, balances change internally on the XTC ledger. (You should change the amount).
 
 Transfers `value` amount of tokens to user `to`, returns a `TxReceipt` which contains the transaction index or an error message.
@@ -95,7 +95,7 @@ DFX code example / daniel
 
 ---
 
-### 📨 Transfer XTC to another XTC Balance on Another's Behalf - transferFrom
+###  Transfer XTC on Another User's Behalf - transferFrom
 
 Transfers `value` amount of tokens from user `from` to user `to`, this method allows canister smart contracts to transfer tokens on your behalf, it returns a `TxReceipt` which contains the transaction index or an error message.
 
@@ -105,7 +105,7 @@ DFX code example / daniel
 
 ---
 
-### 👛 Set an Allowance to Another Identity - approve
+###  Set an Allowance to Another Identity - approve
 
 You can set an allowance using this method, giving a third-party access to a specific number of tokens they can withdraw from your balance if they want.
 
@@ -117,7 +117,7 @@ DFX code example / daniel
 
 ---
 
-### 📒 Check Details of a Transaction - getTransaction
+###  Check Details of a Transaction - getTransaction
 
 Returns transaction detail of the transaction identified by ´index´. If the ´index´ is out of range, the execution traps. Transactions are indexed from zero.
 
@@ -138,7 +138,11 @@ DFX code example / daniel
 
 ## 📡 User Query Calls
 
-### 🏦 Check Your Balance - balanceOf
+This query calls don't require a fee since they only query information.
+
+---
+
+###  Check Your Balance - balanceOf
 
 Returns the balance of user `who`.
 
@@ -157,6 +161,10 @@ DFX code example / daniel
 ---
 
 ## 🛰️ Metadata Query Calls
+
+This query calls don't require a fee since they only query information.
+
+---
 
 ### logo
 
