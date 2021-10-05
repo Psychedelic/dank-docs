@@ -33,6 +33,8 @@ All update functions are allowed to trap, instead of returning an error in order
 
 The cost of the fee is not for financial benefit, but to cover the cost of computation on the IC.
 
+---
+
 ### Mint (Deposit cycles to mint an XTC balance)
 
 You can get your first Cycles Token (XTC) balance by either depositing cycles to the XTC Token Canister to mint them (see below), or getting a one-time redeem of 100$ worth of cycles from DFINITY's [Cycles Faucet tool](https://faucet.dfinity.org/), selecting the option to redeem them as Dank's Cycles Token (XTC)! 
@@ -67,6 +69,9 @@ Did you use DFINITY's Cycles Faucet tool, but selected the Cycles Wallet to rece
 dfx canister --network=ic --wallet=$(dfx identity --network=ic get-wallet) call --with-cycles $(echo "$(dfx wallet --network=ic balance | cut -d' ' -f1)-10000000000" | bc) aanaa-xaaaa-aaaah-aaeiq-cai mint "(principal \"$(dfx identity get-principal)\")"
 ```
 
+---
+
+
 ### Burn (Withdrawing cycles to a Canister)
 
 Unwraps Cycles Token (XTC) into raw Cycles to send them to a Canister ID. (You should change the amount)
@@ -75,6 +80,8 @@ Unwraps Cycles Token (XTC) into raw Cycles to send them to a Canister ID. (You s
 $ dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai burn "(record { canister_id= principal \"some-canister's-principal-id\"; amount= (2000:nat64)})"
 (variant { Ok = 1 })
 ```
+
+---
 
 ### transferErc20 (Transfer XTC to another XTC Balance)
 Send Cycles Token (XTC) to a Principal ID, balances change internally on the XTC ledger. (You should change the amount).
@@ -86,6 +93,8 @@ Transfers `value` amount of tokens to user `to`, returns a `TxReceipt` which con
 DFX code example / daniel
 ```
 
+---
+
 ### transferFrom (Transfer XTC to another XTC Balance on Another's Behalf)
 
 Transfers `value` amount of tokens from user `from` to user `to`, this method allows canister smart contracts to transfer tokens on your behalf, it returns a `TxReceipt` which contains the transaction index or an error message.
@@ -93,6 +102,8 @@ Transfers `value` amount of tokens from user `from` to user `to`, this method al
 ```bash
 DFX code example / daniel
 ```
+
+---
 
 ### approve (Set an Allowance to Another Identity)
 
@@ -103,6 +114,8 @@ An allowance permits the `spender` to withdraw tokens from your account, up to t
 ```bash
 DFX code example / daniel
 ```
+
+---
 
 ### getTransaction (Check Details of a Transaction)
 
@@ -121,6 +134,7 @@ Returns an array of transaction records in the range `[start, start + limit)`. T
 DFX code example / daniel
 ```
 
+---
 
 ### 📡 Query Calls (Checking balances, allowances, and metadata)
 
