@@ -39,7 +39,7 @@ As of V0's Alpha release, these are the features that are built-into the Cycles 
 ## The Cycles Token (XTC) Canister
 ![](imgs/transactions.svg)
 
-The Cycles Token (XTC) was built following a Principal-ID centric token standard [(Repository)](https://github.com/Psychedelic/standards). Users deposit and lock cycles and get a 1-1 balance of Cycles Token (1 XTC = 1 Trillion Cycles) which they can access with just their Principal ID (though you can also transfer Cycles Tokens (XTC) to a Canister ID, which can hold a balance on the XTC Token ledger). It is an **alternative to using Cycles Wallet in terms of using and accessing cycles on the Internet Computer**.
+The Cycles Token (XTC) was built following a Principal-ID centric token standard. Users deposit and lock cycles and get a 1-1 balance of Cycles Token (1 XTC = 1 Trillion Cycles) which they can access with just their Principal ID (though you can also transfer Cycles Tokens (XTC) to a Canister ID, which can hold a balance on the XTC Token ledger). It is an **alternative to using Cycles Wallet in terms of using and accessing cycles on the Internet Computer**.
 
 You can learn the main differences between using the Cycles Token (XTC) and a Cycles Wallet [in this article](https://medium.com/@dank_ois/b9a1d3ddcebe?source=friends_link&sk=0d4c790eda6883d1c013b10cdb8f89f4).
 
