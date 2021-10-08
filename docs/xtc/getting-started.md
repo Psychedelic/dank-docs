@@ -90,7 +90,7 @@ Transfers `value` amount of tokens to user `to`, returns a `TxReceipt` which con
 
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai transferErc20 "(principal \"some-account's-principal-id\", 1000:nat)"
 ```
 
 ---
@@ -100,7 +100,7 @@ DFX code example / daniel
 Transfers `value` amount of tokens from user `from` to user `to`, this method allows canister smart contracts to transfer tokens on your behalf, it returns a `TxReceipt` which contains the transaction index or an error message.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai transferFrom "(principal \"from-account-principal\",principal \"to-account-principal\", 1000:nat)"
 ```
 
 ---
@@ -112,7 +112,7 @@ You can set an allowance using this method, giving a third-party access to a spe
 An allowance permits the `spender` to withdraw tokens from your account, up to the `value` amount. If it is called again it overwrites the current allowance with `value`. There is no upper limit for value.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai approve "(principal \"third-party-account-principal\", 1000:nat)"
 ```
 
 ---
@@ -122,7 +122,7 @@ DFX code example / daniel
 Returns transaction detail of the transaction identified by ´index´. If the ´index´ is out of range, the execution traps. Transactions are indexed from zero.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai getTransaction "($txId:nat)"
 ```
 
 ####  Check Details of Several Transactions - getTransactions
@@ -131,7 +131,7 @@ Returns an array of transaction records in the range `[start, start + limit)`. T
 
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai getTransactions "(start:nat, limit:nat)"
 ```
 
 ---
@@ -147,7 +147,7 @@ This query calls don't require a fee since they only query information.
 Returns the balance of user `who`.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai balanceOf "(principal \"who-account-principal\")"
 ```
 
 ### Check the set allowance for an ID - allowance
@@ -155,7 +155,7 @@ DFX code example / daniel
 Returns the amount which `spender` is still allowed to withdraw from `owner`.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai allowance "(principal \"owner-account-principal\", principal \"spender-account-principal\")"
 ```
 
 ---
@@ -171,15 +171,15 @@ This query calls don't require a fee since they only query information.
 Returns the logo of the Cycles Token (XTC).
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai logo "()"
 ```
 
-### name
+### nameErc20
 
 Returns the name of the token.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai nameErc20 "()"
 ```
 
 ### symbol
@@ -187,7 +187,7 @@ DFX code example / daniel
 Returns the symbol of the token.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai symbol "()"
 ```
 
 ### decimals
@@ -195,7 +195,7 @@ DFX code example / daniel
 Returns the decimals of the token.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai decimals "()"
 ```
 
 ### totalSupply
@@ -203,7 +203,7 @@ DFX code example / daniel
 Returns the total supply of the token.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai totalSupply "()"
 ```
 
 
@@ -212,7 +212,7 @@ DFX code example / daniel
 Returns the metadata of the token.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai getMetadata "()"
 ```
 
 ### historySize
@@ -220,7 +220,7 @@ DFX code example / daniel
 Returns the history size.
 
 ```bash
-DFX code example / daniel
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai historySize "()"
 ```
 
 ---
