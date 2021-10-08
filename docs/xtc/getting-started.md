@@ -171,7 +171,7 @@ This query calls don't require a fee since they only query information.
 Returns the logo of the Cycles Token (XTC).
 
 ```bash
-dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai logo "()"
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai logo
 ```
 
 ### nameErc20
@@ -179,7 +179,7 @@ dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai l
 Returns the name of the token.
 
 ```bash
-dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai nameErc20 "()"
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai nameErc20
 ```
 
 ### symbol
@@ -187,7 +187,7 @@ dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai n
 Returns the symbol of the token.
 
 ```bash
-dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai symbol "()"
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai symbol
 ```
 
 ### decimals
@@ -195,7 +195,7 @@ dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai s
 Returns the decimals of the token.
 
 ```bash
-dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai decimals "()"
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai decimals
 ```
 
 ### totalSupply
@@ -203,7 +203,7 @@ dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai d
 Returns the total supply of the token.
 
 ```bash
-dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai totalSupply "()"
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai totalSupply
 ```
 
 
@@ -212,7 +212,7 @@ dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai t
 Returns the metadata of the token.
 
 ```bash
-dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai getMetadata "()"
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai getMetadata
 ```
 
 ### historySize
@@ -220,7 +220,7 @@ dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai g
 Returns the history size.
 
 ```bash
-dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai historySize "()"
+dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai historySize
 ```
 
 ---
