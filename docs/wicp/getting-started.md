@@ -42,29 +42,20 @@ You have to use this address to make your calls.
 ---
 
 ## ✒️ Update Calls
-The update calls described in this section charge a fee amount of tokens to prevent DDoS attacks, this is necessary because of the reverse gas model of the Internet Computer.
 
 All update functions are allowed to trap, instead of returning an error in order to take advantage of the canisters automatic, atomic state rollback.
-
-The cost of the fee is {FEE GOES HERE}. This fee is not for financial benefit, but to cover the cost of computation on the Internet Computer.
 
 ---
 
 ### Deposit ICP to mint an WICP balance - mint
 
-Minting WICP happens in a 1:1 ratio with the amount of ICP you deposit. Ex) Deposit 5 ICP → 5 WICP Minted. Once deposited, the ICP is locked into the WICP canister, and the WICP balance is tied to the Principal ID entered.
-
-When calling the Mint method, there are a few steps that must be followed. 
-
-**First, make a transfer of ICP to the WICP canister** (id: {{ canister ID HERE }}). After the transaction is accepted, pass the block height of your transaction as a parameter. 
+Using the mint method is done in two steps. First, we need to make a transfer call at the ICP ledger to the WICP account ID. Using the following command you’ll be returned the block height when your transaction was approved. 
 
 ```bash
 dfx ledger --network ic transfer --amount value "bd93b82d61f5e7e69a36cfc5391c990341a9c88412a911f663bd01f1aaece0e7" --memo 0
 ```
 
-**Next, pass the index of the sub-account related to the Principal ID you made the Mint call with**. 
-
-You can pass ‘None’ to default to the main account (index 0), or specify the index by number. Mint checks the block at the NNS Ledger canister that you indicated to see if there is a transaction that matches the Principal ID that you’ve made the Mint call with. If found, it credits your balance with the amount found in the ICP transaction.
+Now that we have the blockheight of our ICP transfer, we can call the mint method on the WICP canister. In addition, the mint method takes ‘subaccount’, a parameter that allows you to specify if you’ve made the previous ICP transfer from a subaccount. Index 0 is your main account, while all non-zero indices refer to subaccounts.
 
 ```bash
 dfx canister --no-wallet --network ic call wicp_rs mint '(subaccount, blockheight:nat64)'
