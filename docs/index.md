@@ -32,6 +32,14 @@ Each Cycles Token (XTC) is backed 1-to-1 with 1 Trillion Cycles **(1 XTC = 1 Tri
     When the project reaches the desired maturity level, it will transition towards a fully community-owned governance system.
 
 
+### Wrapped ICP (WICP) - Alpha
+
+Wrapped ICP (WICP) is a wrapped version of the IC's native token, ICP. Each WICP will be backed 1:1 with ICP, meaning that 1 WICP will always have the exact same value as 1 ICP. The only difference is that, unlike ICP, WICP uses the DIP20 fungible token standard that is specifically designed to allow for interoperability between dApps and other tokens.
+
+- [Wrapped ICP Website](https://dank.ooo/wicp/) 
+- [Using WICP Guide](https://docs.dank.ooo/wicp/getting-started/)
+- [Repository](https://github.com/Psychedelic/wicp/)
+
 ----------------
 
 
