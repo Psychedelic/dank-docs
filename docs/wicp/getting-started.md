@@ -118,7 +118,7 @@ dfx canister --network=ic --no-wallet call {{ canister ID here }} transferFrom "
 ## 📡 Query Calls
 The query calls in this section do not require any fee as they are only reading information, not modifying it.
 
-## Check your Balance - balanceOf
+### Check your Balance - balanceOf
 Returns the balance of user `who`.
 
 ```bash
@@ -127,14 +127,14 @@ Returns the balance of user `who`.
 
 ---
 
-## Check the set allowance for an ID - allowance
+### Check the set allowance for an ID - allowance
 Returns the amount which spender is still allowed to withdraw from owner.
 
 ```bash
 dfx canister --network=ic --no-wallet call --query {{CANISTER ID HERE}} allowance "(principal \"owner-account-principal\", principal \"spender-account-principal\")"
 ```
 
-## Get token logo - getLogo 
+### Get token logo - getLogo 
 Returns the logo of Wrapped ICP (WICP).
 
 ```bash
@@ -143,7 +143,7 @@ dfx canister --network=ic --no-wallet call --query {{CANISTER ID HERE}} logo
 
 ---
 
-## Get token name - name
+### Get token name - name
 Returns the name of Wrapped ICP (WICP).
 
 ```bash
@@ -152,7 +152,7 @@ dfx canister --network=ic --no-wallet call --query {{CANISTER ID HERE} name
 
 ---
 
-## Get token symbol - symbol
+### Get token symbol - symbol
 Returns the symbol of the token.
 
 ```bash
@@ -161,7 +161,7 @@ dfx canister --network=ic --no-wallet call --query {{CANISTER ID HERE} symbol
 
 ---
 
-## Get token decimals - decimals
+### Get token decimals - decimals
 Returns the decimals of the token.
 
 ```bash
@@ -170,7 +170,7 @@ dfx canister --network=ic --no-wallet call --query {{CANISTER ID HERE} decimals
  
 ---
 
-## Get total supply of token - totalSupply
+### Get total supply of token - totalSupply
 Returns the total supply of the token.
 
 ```bash
@@ -179,7 +179,7 @@ dfx canister --network=ic --no-wallet call --query {{CANISTER ID HERE} totalSupp
 
 ---
 
-## Get token’s metadata - getMetadata
+### Get token’s metadata - getMetadata
 Returns the metadata of the token.
 
 ```bash
@@ -188,7 +188,7 @@ dfx canister --network=ic --no-wallet call --query {{CANISTER ID HERE} getMetada
 
 ---
 
-## historySize
+### historySize
 Returns the history size.
 
 ```bash
