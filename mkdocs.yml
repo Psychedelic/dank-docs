@@ -36,6 +36,7 @@ nav:
   - <b>Repositories</b> 🧰: "#"
   - Main Dank Repository: "https://github.com/Psychedelic/dank"
   - Cycles Token (XTC): "https://github.com/Psychedelic/dank/tree/main/xtc"
+  - Wrapped ICP (WICP): "https://github.com/Psychedelic/wicp/"  
   - <b>Resources </b>💡:
     - Resource Library: resources/library.md
     - Common Terms : resources/common-terms.md    
