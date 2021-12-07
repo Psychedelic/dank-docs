@@ -2,7 +2,7 @@
 date: "1"
 ---
 
-# Cycles Token (XTC) - Getting Started
+# Wrapped ICP (WICP) - Getting Started
 
 ![](imgs/wicp.png)
 
