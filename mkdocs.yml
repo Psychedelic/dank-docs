@@ -29,9 +29,14 @@ nav:
   - Ledger Operations: xtc/getting-started/#ledger-operations   
   - Create & Manage Canisters: xtc/canister-development.md
   - Set as Default DFX Wallet: xtc/canister-development/#set-cycles-token-xtc-as-your-default-wallet-in-dfx
+  - <b>Wrapped ICP (WICP)</b> ♾️: "#"
+  - Getting Started: wicp/getting-started.md
+  - Update Calls: wicp/getting-started/#update-calls
+  - Query Calls: wicp/getting-started/#query-calls  
   - <b>Repositories</b> 🧰: "#"
   - Main Dank Repository: "https://github.com/Psychedelic/dank"
   - Cycles Token (XTC): "https://github.com/Psychedelic/dank/tree/main/xtc"
+  - Wrapped ICP (WICP): "https://github.com/Psychedelic/wicp/"  
   - <b>Resources </b>💡:
     - Resource Library: resources/library.md
     - Common Terms : resources/common-terms.md    
