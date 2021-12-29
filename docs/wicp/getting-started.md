@@ -66,9 +66,9 @@ dfx canister --no-wallet --network ic call utozz-siaaa-aaaam-qaaxq-cai mint '(su
 
 ### Unwrap your WICP and regain a balance of ICP - withdraw
 
-Calling withdraw unwraps your WICP, burns it, and then unlocks and sends ICP from the WICP canister to the balance of the Principal ID you specify.
+Calling withdraw unwraps your WICP, burns it, and then unlocks and sends ICP from the WICP canister to the balance of the destination address you specify.
 
-The Withdraw method takes two parameters, ‘value’ and ‘to’. Value is an integer that represents the amount of WICP you’d like to withdraw to ICP. To is a string that should be the Principal ID that you wish the ICP to be transferred to. 
+The Withdraw method takes two parameters, ‘value’ and ‘to’. Value is an integer that represents the amount of WICP you’d like to withdraw to ICP. To is a string that should be the Account ID that you wish the ICP to be transferred to. 
 
 ```bash
 dfx canister --no-wallet --network ic call utozz-siaaa-aaaam-qaaxq-cai withdraw '(value:nat64, "account id")'
