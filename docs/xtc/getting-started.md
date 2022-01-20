@@ -70,6 +70,22 @@ dfx canister --network=ic --wallet=$(dfx identity --network=ic get-wallet) call 
 ```
 
 ---
+### Deposit ICP to mint an XTC balance - mint_by_icp
+
+You are able to get a Cycles Token (XTC) balance by sending ICP to the XTC canister. 
+
+Using the mint_by_icp method is done in two steps. First, we need to make a transfer call at the ICP ledger to the XTC account ID. Using the following command you’ll be returned the block height when your transaction was approved.
+
+```bash
+dfx ledger --network ic transfer --amount "$AMOUNT" "758bdb7e54b73605d1d743da9f3aad70637d4cddcba03db13137eaf35f12d375" --memo 0
+```
+
+Now that we have the blockheight of our ICP transfer, we can call the mint_by_icp method on the XTC canister. In addition, the mint_by_icp method takes ‘subaccount’, a parameter that allows you to specify if you’ve made the previous ICP transfer from a subaccount. Index 0 (or null) is your main account, while all non-zero indices refer to subaccounts.
+
+```bash
+dfx canister --network ic call aanaa-xaaaa-aaaah-aaeiq-cai mint_by_icp "(null,$BLOCK_HEIGHT:nat64)"
+```
+---
 
 
 ### Withdrawing cycles to a Canister - Burn
