@@ -163,7 +163,7 @@ This query calls don't require a fee since they only query information.
 Returns the balance of user `who`.
 
 ```bash
-dfx canister --network=ic --no-wallet call --query aanaa-xaaaa-aaaah-aaeiq-cai balanceOf "(principal \"who-account-principal\")"
+dfx canister --network=ic call --query aanaa-xaaaa-aaaah-aaeiq-cai balanceOf "(principal \"who-account-principal\")"
 ```
 
 ### Check the set allowance for an ID - allowance
