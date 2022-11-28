@@ -91,10 +91,10 @@ dfx canister --network ic call aanaa-xaaaa-aaaah-aaeiq-cai mint_by_icp "(null,$B
 ### Withdrawing cycles to a Canister - Burn
 
 Unwraps Cycles Token (XTC) into raw Cycles to send them to a Canister ID. (You should change the amount)
+TIP: When sending your entire XTC balance to a canister, reserve 2 billion XTC cycles to get burned as transaction fees and send the rest
 
 ```bash
-$ dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai burn "(record { canister_id= principal \"some-canister's-principal-id\"; amount= (2000:nat64)})"
-(variant { Ok = 1 })
+dfx canister --network=ic --no-wallet call aanaa-xaaaa-aaaah-aaeiq-cai burn "(record { canister_id= principal \"some-canister's-principal-id\"; amount= (2000:nat64)})"
 ```
 
 ---
